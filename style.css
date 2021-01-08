@@ -37,4 +37,5 @@ img.pic-right{
     width:250px;
     float:right;
     margin: auto;
+    position: fixed;
 }
