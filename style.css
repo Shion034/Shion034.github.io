@@ -5,7 +5,7 @@ body {
     background-color: #FFD4EA;
     max-width:750px;
     margin:1.25rem auto;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 1.5;
 }
 
@@ -14,14 +14,27 @@ header,h3,nav,main,footer{
     max-width:750px;
 }
 
-header,footer{
+header{
     margin: 20px;
     background-color: #222A53;
     font-family: "Lato",serif;
     color:azure;
-
-
 }
+
+.wrapper{
+    min-height: 100vh;
+    position: relative;/*←相対位置*/
+}
+
+footer{
+    margin: 20px;
+    background-color: #222A53;
+    font-family: "Lato",serif;
+    color:azure;
+    position: absolute;/*←絶対位置*/
+    bottom: 0; /*下に固定*/
+}
+
 
 h3{
     margin-top:3em;
@@ -37,5 +50,5 @@ img.pic-right{
     width:250px;
     float:right;
     margin: auto;
-    position: fixed;
+    position: relative;
 }
