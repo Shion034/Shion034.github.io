@@ -2,12 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Lato:wght@300&display=swap');
 
 body {
+    
     margin:1.25rem auto;
     font-size: 15px;
     line-height: 1.5;
 }
 
-header,nav,main,footer{
+header,h3,nav,main,footer{
     margin:1.25rem auto;
     max-width:750px;
 }
@@ -22,6 +23,10 @@ header,footer{
 body{
     background-color: #FFD4EA;
 
+}
+
+ul{
+    max-width:750px;
 }
 
 img.pic-right{
