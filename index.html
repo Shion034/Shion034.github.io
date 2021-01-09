@@ -38,23 +38,11 @@
     <footer class="page-footer">
         @2021|Shion Keaty| BYUI online Learning<br>
         <div class="date">
-        Today's date:<span id="date"></span>
+        last update<span id="date"></span>
         </div>
     </footer>
     <script>
-    //今日の日付データを変数hidukeに格納
-var date=new Date(); 
-
-//年・月・日・曜日を取得する
-var year = date.getFullYear();
-var month = date.getMonth()+1;
-var week = date.getDay();
-var day = date.getDate();
-
-var yobi= new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sta");
-
-document.getElementById("date").innerHTML=date;
-//document.write("西暦"+year+"年"+month+"月"+day+"日 "+yobi[week]+"曜日");
+   
     </script>
 </body>
 </html>
