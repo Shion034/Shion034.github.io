@@ -8,12 +8,10 @@ body {
     font-size: 18px;
     line-height: 1.5;
 }
-
 header,nav,main,footer{
     margin:1.25rem auto;
     max-width:750px;
 }
-
 header{
 
     background-color: #222A53;
@@ -21,7 +19,6 @@ header{
     color:azure;
     max-width:750px;
 }
-
 .wrapper{
     min-height: 100vh;
     position: relative;/*←相対位置*/
@@ -36,22 +33,18 @@ footer{
     position: absolute;/*←絶対位置*/
     bottom: 0; /*下に固定*/
 }
-
-
 h3{
     margin-top:3em;
     border-bottom: 5px;
     max-width:750px;
-
 }
-
 ul{
     max-width:750px;
 }
-
 img.pic-right{
     width:250px;
     float:right;
     margin: auto;
     position: relative;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.5);
 }
