@@ -1,9 +1,9 @@
 let newdate=new Date();
 
    let year = lastup.getFullYear();
-   document.getElementById("year").innerHTML=year;
+   document.getElementById("year").textContent=year;
 
    let lastupdate=document.lastModified;
-   document.getElementById("date").innerHTML=+"Last update:"+lastupdate;
+   document.getElementById("date").textContent=+"Last update:"+lastupdate;
 
 //document.write("Last update：" + document.lastModified);
