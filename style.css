@@ -35,7 +35,7 @@ footer{
 }
 h3{
     margin-top:3em;
-    border-bottom: 5px;
+    border-bottom: 5px solid gray;
     max-width:750px;
 }
 ul{
