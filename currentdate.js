@@ -14,4 +14,4 @@ let daynemes=[
    let fulldate=dayNam+", "+monthName+", "+d.getDate()+
    ", "+year;
 
-   document.getElementById("date").textContent=fulldate;
+   document.getElementById("currentdate").textContent=fulldate;
