@@ -6,7 +6,7 @@ body {
     margin:1.25rem auto;
     font-size: 18px;
     line-height: 1.5;
-     background-color: #FFD4EA;
+    background-color: #FFD4EA;
 }
 nav,main{
     margin:1.25rem auto;
@@ -22,7 +22,6 @@ header{
     font-family: "Lato",serif;
     text-indent: 45px;
     font-size: 32px;
-}
 }
 footer{
     max-width:900px;
