@@ -40,7 +40,7 @@ footer{
 
 h3{
     margin-top:3em;
-    border-bottom: 1px solid double #222A53;
+    border-bottom: 1px double #222A53;
     max-width:750px;
 }
 ul{
