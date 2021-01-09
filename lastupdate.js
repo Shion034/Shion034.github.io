@@ -4,6 +4,6 @@ let newdate=new Date();
    document.getElementById("year").textContent=year;
 
    let lastupdate=document.lastModified;
-   document.getElementById("date").textContent=+"Last update:"+lastupdate;
+   document.getElementById("date").textContent=lastupdate;
 
 //document.write("Last update：" + document.lastModified);
