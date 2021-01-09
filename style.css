@@ -11,9 +11,9 @@ body {
 header,nav,main,footer{
     margin:1.25rem auto;
     max-width:750px;
+    text-indent: 20px;
 }
 header{
-
     background-color: #222A53;
     font-family: "Lato",serif;
     color:azure;

@@ -29,8 +29,19 @@
         
     </footer>
     <script>
-        const options={weekday:"long",day:"numeric",month:"long",year"numeric"};
-        document.getElementById("date").textContent= new Date().toLocaleDateString("en-US",options);
+    //今日の日付データを変数hidukeに格納
+var date=new Date(); 
+
+//年・月・日・曜日を取得する
+var year = date.getFullYear();
+var month = date.getMonth()+1;
+var week = date.getDay();
+var day = date.getDate();
+
+var yobi= new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sta");
+
+document.getElementById("date").innerHTML=date;
+//document.write("西暦"+year+"年"+month+"月"+day+"日 "+yobi[week]+"曜日");
     </script>
 </body>
 </html>
