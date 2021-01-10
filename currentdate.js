@@ -2,10 +2,10 @@ let monthes=[
    "January","February","March",
    "April","May","June","July",
    "August","September","October",
-   "November","December",];
+   "November","December"];
 let daynemes=[
    "Monday","Tuesday","Wednesday","Thursday",
-   "Friday","Saturday", "Sunday",];
+   "Friday","Saturday", "Sunday"];
 
    let d=new Date();
    let dayNam=daynames[d.getDate()];
