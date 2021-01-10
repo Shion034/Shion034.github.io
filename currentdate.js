@@ -8,9 +8,9 @@ let daynemes=[
    "Friday","Saturday", "Sunday"];
 
    let d=new Date();
-   let dayNam=daynames[d.getDate()];
+   let dayName=daynames[d.getDate()];
    let monthName=months[d.getMonth()];
    let year=d.getFullYear();
-   let fulldate=dayNam+", "+monthName+", "+d.getDate()+", "+year;
+   let fulldate=dayName+", "+monthName+", "+d.getDate()+", "+year;
 
    document.getElementById("currentdate").textContent=fulldate;
