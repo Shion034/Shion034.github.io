@@ -38,6 +38,10 @@ footer{
     /*font-family: "Lato",serif;*/
     text-align: center;
 }
+h1{
+    font-family: 'Anton', sans-serif;
+}
+
 
 h3{
     margin-top:3em;
