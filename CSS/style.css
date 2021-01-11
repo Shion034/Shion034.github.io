@@ -1,5 +1,8 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Lato:wght@300&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Lato:wght@300&display=swap');*/
+
+/*font-family: 'Anton', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;*/
 
 body {
     max-width:900px;
@@ -19,7 +22,8 @@ header{
     border-radius: 10px;
     background-color: #222A53;
     color:azure;
-    font-family: "Lato",serif;
+    font-family: 'Anton', sans-serif;
+    /*font-family: "Lato",serif;*/
     text-indent: 45px;
     font-size: 32px;
 }
@@ -30,7 +34,8 @@ footer{
     border-radius: 10px;
     background-color: #222A53;
     color:azure;
-    font-family: "Lato",serif;
+    font-family: 'Anton', sans-serif;
+    /*font-family: "Lato",serif;*/
     text-align: center;
 }
 
@@ -54,4 +59,5 @@ img.pic-right{
 p.lastupdate{
     font-size:13px;
     text-indent: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
