@@ -17,20 +17,17 @@ nav,main{
 header{
     max-width:900px;
     width: 100%;
-    height:100px;
-    border-radius: 10px;
     background-color: #222A53;
     color:azure;
     font-family: 'Anton', sans-serif;
     /*font-family: "Lato",serif;*/
     text-indent: 45px;
-    font-size: 32px;
+    
 }
 footer{
     max-width:900px;
     width: 100%;
     height: 80px;
-    border-radius: 10px;
     background-color: #222A53;
     color:azure;
     font-family: 'Anton', sans-serif;
@@ -39,6 +36,7 @@ footer{
 }
 h1{
     font-family: 'Anton', sans-serif;
+    font-size: 1.5em;
 }
 
 
@@ -51,13 +49,9 @@ ul{
     max-width:750px;
 }
 img.pic-right{
-    width:250px;
-    float:right;
-    margin: auto;
+    width:200px;
     margin-top: 60px;
-    margin-right: 30px;
-    position: relative;
-    box-shadow: 0 10px 15px 0 rgba(0,0,0,.5);
+
 }
 p.lastupdate{
     font-size:13px;

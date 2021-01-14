@@ -1,0 +1,24 @@
+@media only screen and (min-width: 32.5em){
+
+    h1{
+        font size: 2.5em;
+    }
+    
+    header{
+        border-radius: 10px;
+        
+    }
+    footer{
+        border-radius: 10px;
+    }
+    img.pic-right{
+        width:250px;
+        float:right;
+        margin: auto;
+        margin-top: 60px;
+        margin-right: 30px;
+        position: relative;
+        box-shadow: 0 10px 15px 0 rgba(0,0,0,.5);
+    }
+
+}
