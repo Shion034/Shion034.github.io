@@ -13,6 +13,7 @@ header{
     font-family: 'Anton', sans-serif;
     /*font-family: "Lato",serif;*/
     text-indent: 45px;
+    border-radius: 10px;
     
 }
 footer{
@@ -24,11 +25,12 @@ footer{
     font-family: 'Anton', sans-serif;
     /*font-family: "Lato",serif;*/
     text-align: center;
+    border-radius: 10px;
 }
 
 #gridadapted{
     display: grid;
-    grid-template-columns: 300px 1fr 1fr 1fr 300px;
-    row-gap: 25px;
-    column-gap: 25px;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap: 15px;
+    grid-template-rows: 6,1fr;
 }
