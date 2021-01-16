@@ -1,9 +1,7 @@
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 340px){
 
     #gridadapted{
-        display: grid;
         grid-template-columns:1fr 1fr;
-        column-gap: 10px;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 }
