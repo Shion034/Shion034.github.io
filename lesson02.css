@@ -34,3 +34,12 @@ footer{
     column-gap: 15px;
     grid-template-rows: 6,1fr;
 }
+article{
+    border:solid;
+    border-radius: 8px;
+}
+
+p.companyname{
+    font-family: 'Anton', sans-serif;
+    background-color: #E5FF56;
+}
