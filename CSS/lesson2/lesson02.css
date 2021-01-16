@@ -28,10 +28,8 @@ footer{
     border-radius: 10px;
 }
 
-#gridadapted{
-    display: grid;
-    column-gap: 10px;
-    grid-template-columns:1fr;
+.gridadapted{
+    width:auto;
 }
 article{
     border:solid;
