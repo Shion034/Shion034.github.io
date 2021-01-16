@@ -60,3 +60,10 @@ p.companyname{
     grid-row-start: 2;
     grid-row-end:3;
 }
+h3.principletitle{
+    text-align: center;
+    color:#222A53;
+}
+p.companyname{
+    font-size: 25px;
+}
