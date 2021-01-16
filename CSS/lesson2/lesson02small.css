@@ -30,6 +30,7 @@ footer{
 
 .gridadapted{
     width:auto;
+    padding-left: 10px;
 }
 article{
     border:solid;
