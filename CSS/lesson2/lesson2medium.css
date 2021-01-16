@@ -1,6 +1,7 @@
 @media screen and (min-width: 400px){
 
     .gridadapted{
+        display: grid;
         grid-template-columns:1fr 1fr;
     }
     body{

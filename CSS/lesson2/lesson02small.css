@@ -36,6 +36,7 @@ article{
     border-radius: 15px;
     background-color:#222A53;
     padding: 3px;
+    width: 300px;
 }
 img{
     width:300px;
@@ -49,10 +50,6 @@ section{
     widows: 330px;
 }
 /*-----------------------------------------------------------------------------------------------------------------------*/
-.principletitle{
-    grid-row-start: 1;
-    grid-row-end:2;
-}
 p.companyname{
     font-family: 'Anton', sans-serif;
     background-color: #E5FF56;
@@ -61,12 +58,3 @@ p.companyname{
     padding-left: 10px;
     grid-row-start: 2;
     grid-row-end:3;
-}
-.screenshot{
-    grid-row-start: 3;
-    grid-row-end:4;
-}
-.discription{
-    grid-row-start: 4;
-    grid-row-end:5;
-}
