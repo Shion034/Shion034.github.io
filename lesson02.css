@@ -1,5 +1,5 @@
 body {
-    max-width:900px;
+    max-width:950px;
     margin:1.25rem auto;
     font-size: 18px;
     line-height: 1.5;
@@ -32,15 +32,27 @@ footer{
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
     column-gap: 15px;
-    grid-template-rows: 6,1fr;
+    grid-template-rows: repeat (4,1fr);
 }
 article{
     border:solid;
     border-radius: 8px;
+    background-color:#FFD4EA;
+    padding: 3px;
 }
 
 p.companyname{
     font-family: 'Anton', sans-serif;
     background-color: #E5FF56;
     color: #222A53;
+    margin: auto;
+    padding-left: 10px;
+}
+img{
+    width:300px;
+    height:560px;
+}
+.principle1,.principle2,.principle3{
+    grid-row-start: 1;
+    grid-row-end:5;
 }
