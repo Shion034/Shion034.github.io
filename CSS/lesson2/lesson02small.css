@@ -33,17 +33,9 @@ footer{
 }
 article{
     border:solid;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color:#222A53;
     padding: 3px;
-}
-
-p.companyname{
-    font-family: 'Anton', sans-serif;
-    background-color: #E5FF56;
-    color: #222A53;
-    margin: auto;
-    padding-left: 10px;
 }
 img{
     width:300px;
@@ -51,5 +43,30 @@ img{
 }
 .principle1,.principle2,.principle3{
     grid-row-start: 1;
+    grid-row-end:5;
+}
+section{
+    widows: 330px;
+}
+/*-----------------------------------------------------------------------------------------------------------------------*/
+.principletitle{
+    grid-row-start: 1;
+    grid-row-end:2;
+}
+p.companyname{
+    font-family: 'Anton', sans-serif;
+    background-color: #E5FF56;
+    color: #222A53;
+    margin: auto;
+    padding-left: 10px;
+    grid-row-start: 2;
+    grid-row-end:3;
+}
+.screenshot{
+    grid-row-start: 3;
+    grid-row-end:4;
+}
+.discription{
+    grid-row-start: 4;
     grid-row-end:5;
 }

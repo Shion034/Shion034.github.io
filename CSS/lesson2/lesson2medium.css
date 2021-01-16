@@ -1,4 +1,4 @@
-@media only screen and (min-width: 340px){
+@media only screen and (min-width: 400px){
 
     .gridadapted{
         grid-template-columns:1fr 1fr;
