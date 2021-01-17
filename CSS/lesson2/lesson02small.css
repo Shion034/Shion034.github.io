@@ -62,6 +62,8 @@ p.companyname{
 h3.principletitle{
     text-align: center;
     color:#222A53;
+    padding: 20px;
+    background-color: white;
 }
 p.companyname{
     font-size: 25px;
