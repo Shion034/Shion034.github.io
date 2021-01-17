@@ -34,7 +34,7 @@ footer{
     display: grid;
     grid-template-rows: 1fr;
 }
-article{
+div{
     border:solid;
     border-radius: 15px;
     background-color:#222A53;
@@ -47,7 +47,7 @@ img{
 }
 
 section{
-    widows: 330px;
+    width: 330px;
 }
 /*-----------------------------------------------------------------------------------------------------------------------*/
 p.companyname{
