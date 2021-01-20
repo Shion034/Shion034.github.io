@@ -15,16 +15,17 @@ header,footer{
     /*font-family: "Lato",serif;*/
     text-align: center;
 }
-/*h1{
+h1{
     font-family: 'Anton', sans-serif;
     font-size: 2.5em;
-}*/
+}
 h3{
     margin-top:auto;
     color: #222A53;
 }
 
 nav ul{
+    background-color: #E5FF56;
     list-style: none;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
