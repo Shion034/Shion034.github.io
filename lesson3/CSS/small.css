@@ -20,10 +20,12 @@ h1{
     font-family: 'Anton', sans-serif;
     font-size: 2.5em;
 }
-
-
 h3{
     margin-top:3em;
     border-bottom: 1px double #222A53;
     max-width:750px;
+}
+body{
+    font-size: 18px;
+    background-color:  #FFD4EA;;
 }
