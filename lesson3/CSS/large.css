@@ -1,8 +1,10 @@
-@media only screen and (max-width:36.5em){
+@media only screen and (min-width:600px){
 
     body{
         max-width:900px;
         font-size: 1.5em;
+        background-color:  #FFD4EA;
+        margin: 0 auto;
     }
 
     header,footer{
