@@ -1,6 +1,5 @@
 body{
-    max-width:900px;
-    font-size: 1.5em;
+    font-size: 1.3em;
     background-color:  #FFD4EA;
     margin: 0 auto;
 }
@@ -27,8 +26,8 @@ h3{
 nav ul{
     background-color: #E5FF56;
     list-style: none;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display:block;
+    text-align: center;
 }
 
 /*--------------------------------------Table colors--------------------------------------------------------*/
