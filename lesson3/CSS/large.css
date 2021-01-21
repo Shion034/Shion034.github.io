@@ -12,9 +12,8 @@
     height: 80px;}
 header{font-size: 2.5em;}
 nav ul{
-    background-color: #E5FF56;
-    list-style: none;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 }
