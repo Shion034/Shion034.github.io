@@ -29,7 +29,13 @@ nav ul{
     display:block;
     text-align: center;
 }
-
+/*--------------------------------------Table audience------------------------------------------------------*/
+table.personas1{
+    width: 750px;
+}
+table.personas1 td{
+    width: 550px;
+}
 /*--------------------------------------Table colors--------------------------------------------------------*/
 table{
     text-align: center;
