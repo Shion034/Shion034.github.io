@@ -37,7 +37,10 @@ table{
     padding: 10px;
 }
 tr td{
-    width:180px;
+    width:300px;
+}
+th{
+    border-bottom: 2px solid  #222A53;
 }
 .headerfooter1{
     background-color: #C0FF53;
@@ -56,5 +59,16 @@ tr td{
 }
 .nav{
     background-color: #73F1FF;
+}
+/*----------------------------------------------------------------------------------------------------------*/
+/*------------------------------------Table Typography------------------------------------------------------*/
+.t-nav{
+    font-family: 'Yusei Magic', sans-serif;
+}
+.t-headerh1{
+    font-family: 'Corben', cursive;
+}
+.t-Paragraph{
+    font-family: 'Source Sans Pro', sans-serif;
 }
 /*----------------------------------------------------------------------------------------------------------*/
