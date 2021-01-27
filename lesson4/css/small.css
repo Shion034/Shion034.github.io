@@ -78,3 +78,15 @@ nav ul li a:hover{
 h3{
     color: #ffa217;
 }
+
+
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
