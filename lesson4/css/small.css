@@ -73,6 +73,8 @@ nav ul li a:hover{
     color: #fff;
 }
 
+nav ul.hide{display: none;}
+
 /*---------------------------------------------------------*/
 
 h3{
