@@ -1,6 +1,16 @@
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 35rem) {
 
+
+    img{
+        width:90px;
+        height: auto;
+        margin: 10px;
+    }
+    section{
+        padding-top: 20px;
+    }
+
    /*---------------------nav decoration----------------------*/
    nav button{
        display: none;
@@ -18,8 +28,11 @@
    nav ul li a {
        border: none;
        padding: 10px;
-
    }
-
+/*---------------------------------------------------------*/
+main, footer{
+    margin: 0 auto;
+    max-width:700px;
+}
 
 }

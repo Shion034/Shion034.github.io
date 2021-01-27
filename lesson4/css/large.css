@@ -4,4 +4,5 @@
     nav ul li a{
         padding: 10px;
     }
+    nav ul{ padding: 0;}
 }/*end large*/
