@@ -5,6 +5,10 @@
    nav button{
        display: none;
    }
+   nav ul.hide{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   }
    nav ul {
        margin-left: 2%;
    }
