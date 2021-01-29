@@ -85,6 +85,9 @@ nav ul.hide{display: none;}
 
 h3{
     color: #ffa217;
+    border: dotted 2px  #2B8E2F;
+    padding: 5px;
+
 }
 
 
