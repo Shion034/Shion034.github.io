@@ -19,7 +19,7 @@ header{
     align-content: center;
     justify-content: center;
 }
-img{
+.droppypic{
     width:60px;
     height: auto;
     margin: 10px;
@@ -89,10 +89,51 @@ h3{
     padding: 5px;
 
 }
+h2{
+    color: #ffa217;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Corben', cursive;
+}
+.hikingpic{
+    width: 100%;
+}
 
-
-
-
+/*---------------------------------------------------------*/
+.herodiv{
+    margin: 10px auto;
+    position: relative;
+}
+.summarycontent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.temper{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 1rem;
+    border: solid 2px #2B8E2F;
+    box-shadow: 0 0 10px #111;
+    text-align: center;
+    background-color: rgba(192,255,83,0.8);
+}
+.summarytitle{
+    color: #2B8E2F;
+    font-family: 'Yusei Magic', sans-serif;
+    font-weight: bold;
+    margin: -5px;
+    font-size: 1.3em;
+}
+.summarypl{
+    text-align: right;
+}
+.summarypr{
+    text-align: left;
+    padding-left: 8px;
+    color: #c534a6;
+    font-weight: bold;
+}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
