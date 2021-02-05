@@ -137,31 +137,8 @@ h2{
     font-weight: bold;
 }
 
-/*-----------------------column----------------------------------*/
+/*-----------------------table----------------------------------*/
 
-.daysforcast{
-    column-count: 5;
-    column-gap: 5px;
-    width: 80%;
-    margin: auto;
-}
-.daysforcast img{
-    width: 50%;
-}
-.cloud{
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-.columnFive{
-    background-color: rgba(192,255,83,0.8);
-    padding: 5px;
-    text-align: center;
-}
-.dayhead{
-    color: #2B8E2F;
-    font-family: 'Yusei Magic', sans-serif;
-    font-weight: bold;
-}
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/
