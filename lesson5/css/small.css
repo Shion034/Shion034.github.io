@@ -85,9 +85,10 @@ nav ul.hide{display: none;}
 
 h3{
     color: #ffa217;
-    border: dotted 2px  #2B8E2F;
     padding: 5px;
-
+    font-family: 'Corben', cursive;
+    text-align: center;
+    padding-bottom: 0;
 }
 h2{
     color: #ffa217;
@@ -107,6 +108,7 @@ h2{
 .summarycontent{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: -20px;
 }
 .temper{
     position: absolute;
@@ -135,6 +137,31 @@ h2{
     font-weight: bold;
 }
 
+/*-----------------------column----------------------------------*/
+
+.daysforcast{
+    column-count: 5;
+    column-gap: 5px;
+    width: 80%;
+    margin: auto;
+}
+.daysforcast img{
+    width: 50%;
+}
+.cloud{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.columnFive{
+    background-color: rgba(115, 241, 255, 0.8);
+    padding: 5px;
+    text-align: center;
+}
+.dayhead{
+    color: #2B8E2F;
+    font-family: 'Yusei Magic', sans-serif;
+    font-weight: bold;
+}
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
