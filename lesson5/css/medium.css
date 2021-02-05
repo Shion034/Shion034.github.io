@@ -25,6 +25,11 @@
    nav ul li{
     float:left;
    }
+   nav ul li .prestona{
+       color:white;
+       background-color: #24B2C2;
+   }
+
    nav ul li a {
        border: none;
        padding: 10px;
@@ -55,6 +60,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 15px;
 }
 /*---------------------------------------------------------*/
 main, footer{
