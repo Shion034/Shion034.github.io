@@ -3,7 +3,7 @@
 #73F1FF: light blue
 #C0FF53: light green
 #2B8E2F: green
-#FF4BD7: pink
+#FF4BD7: pink  FF00A1   FFA8EA
 #ffa217: orange
 */
 
@@ -12,6 +12,14 @@
 body{
     background-color:#FFFFFF;
 }
+/*-----------------bannerAd--------------*/
+aside{
+background: linear-gradient(to bottom, rgba(255,168,234,1) 0%,rgba(255,75,215,1) 50%,rgba(255,0,161,1) 100%);
+    color: white;
+    font-family: 'Yusei Magic', sans-serif;
+    padding:10px;
+}
+
 /*-----------------headter/footer decoration---------------*/
 header{
     width: 100%;
