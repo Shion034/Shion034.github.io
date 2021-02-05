@@ -175,6 +175,9 @@ td{
     text-align: left;
     padding:3%;
 }
+.map{
+    display:none;
+}
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";

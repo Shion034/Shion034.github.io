@@ -29,6 +29,33 @@
        border: none;
        padding: 10px;
    }
+
+      /*-----------------------table----------------------------------*/
+.fivedaysforcast{
+    display: block;
+}
+
+/*---------------------------article-------------------------------------*/
+.bbqarticle{
+    margin-top: 0;
+}
+.bbq{
+    width: 60%;
+    float: right;
+}
+
+/*-----------------------------contactimf------------------------------*/
+.map{
+    display: inline;
+    width: 30%;
+    float: left;
+}
+.contactinfo{
+    height: 210px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 /*---------------------------------------------------------*/
 main, footer{
     margin: 0 auto;
