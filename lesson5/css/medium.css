@@ -62,6 +62,15 @@
     align-items: center;
     font-size: 15px;
 }
+.snsimg{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+}
+.sns{
+    width: 60%;
+    margin: 0;
+   }
 /*---------------------------------------------------------*/
 main, footer{
     margin: 0 auto;

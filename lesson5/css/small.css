@@ -186,6 +186,9 @@ td{
 .map{
     display:none;
 }
+.sns{
+ width: 15%;
+}
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
