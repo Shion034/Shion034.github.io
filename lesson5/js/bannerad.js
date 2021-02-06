@@ -12,3 +12,6 @@ let dayNname = daynamess[dd.getDay()];
 if(dayNname=="Saturday"){
 document.getElementById("banner").innerHTML = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.";
 }
+else{
+    document.getElementById("banner").innerHTML = "No events for today.";
+}
