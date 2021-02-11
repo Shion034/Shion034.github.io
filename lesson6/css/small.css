@@ -37,6 +37,7 @@ header{
     font-family: 'Corben', cursive;
     color:#FF4BD7;
     font-size: 2.5em;
+    font-weight: bold;
 }
 .motto{font-size: 20px;}
 header, footer{
