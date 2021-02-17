@@ -1,0 +1,13 @@
+
+body img[data-src]{
+    filter:blur(1.5rem);
+}
+body img{
+    width:300px;
+}
+body {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    align-items: center;

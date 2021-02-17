@@ -2,8 +2,12 @@
 
 let imagesToLoad = document.querySelectorAll("img[data-src]");
 
+/*function loadImages(img){
+    const src = img.getAttribute("data-src");
+}*/
+
 const imgOptions = {
-    threshold: 0,
+    threshold: 1,
     rootMargin: "0px 0px 50px 0px"
 };
 
