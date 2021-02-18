@@ -1,0 +1,33 @@
+@media only screen and (min-width: 64rem){
+
+/*color scheme
+#73F1FF: light blue
+#C0FF53: light green
+#2B8E2F: green
+#FF4BD7: pink  FF00A1   FFA8EA
+#ffa217: orange
+*/
+
+.gallarycont{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  

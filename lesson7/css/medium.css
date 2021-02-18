@@ -1,0 +1,57 @@
+@media only screen and (min-width: 35rem){
+
+/*color scheme
+#73F1FF: light blue
+#C0FF53: light green
+#2B8E2F: green
+#FF4BD7: pink  FF00A1   FFA8EA
+#ffa217: orange
+*/
+
+.gallarycont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*---------------------nav decoration----------------------*/
+nav button{
+    display: none;
+}
+nav ul.hide{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+nav ul {
+    margin-left: 2%;
+}
+nav ul li{
+ float:left;
+}
+nav ul li .prestona{
+    color:white;
+    background-color: #24B2C2;
+}
+
+nav ul li a {
+    border: none;
+    padding: 10px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
