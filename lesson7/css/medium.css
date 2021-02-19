@@ -12,7 +12,7 @@
     display: grid;
     grid-auto-flow: dense;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(6, 250px);
+    grid-template-rows: repeat(6, 1fr);
 
 }
 img .thoundernignt{
