@@ -121,7 +121,7 @@ div .description{
     border: solid 1px rgba(0,0,0,0.3);
     margin: 20px;
 }
-div .imgcell :hover{
+.weathreimg :hover{
     box-shadow: 10px 7px 10px rgba(0,0,0,0.3);
 }
 

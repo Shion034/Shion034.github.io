@@ -13,6 +13,7 @@
     grid-auto-flow: dense;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6, 1fr);
+    grid-row-gap: 15px;
 
 }
 img .thoundernignt{
