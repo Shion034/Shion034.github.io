@@ -110,7 +110,13 @@ main{
 }
 img{
     width:100%;
+    filter: blur(0em);
+    transition: filter 1s;
 }
+img[data-src]{
+    filter: blur(0.2em);
+}
+
 div .description{
     background-color:hsla(186, 100%, 73%, 0.5) ;
     font-family: 'Yusei Magic', sans-serif;
@@ -121,12 +127,11 @@ div .description{
     border: solid 1px rgba(0,0,0,0.3);
     margin: 20px;
 }
-.weathreimg :hover{
+
+
+.imgcell :hover{
     box-shadow: 10px 7px 10px rgba(0,0,0,0.3);
 }
-
-
-
 
 
 
