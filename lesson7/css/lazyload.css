@@ -1,10 +1,12 @@
 
 body img[data-src]{
-    filter:blur(1.5rem);
+    filter:blur(0.5rem);
 }
 body img{
     width:300px;
     margin: 10px;
+    filter:blur(0rem);
+    transition: filter 2s;
 }
 body {
     display:flex;
