@@ -92,7 +92,6 @@ nav ul li a:hover{
 nav ul.hide{display: none;}
 
 /*---------------------------------------------------------*/
-
 h2{
     color: #ffa217;
     padding: 5px;
@@ -100,8 +99,6 @@ h2{
     font-family: 'Corben', cursive;
     font-size: 2rem;
 }
-
-
 /*---------------------------------------------------------*/
 main{
     margin:auto 0;
@@ -126,8 +123,7 @@ div .description{
     margin: 20px;
 }
 
-
-.weathreimg :hover{
+picture :hover{
     box-shadow: 0 0 50px #333;
 }
 
