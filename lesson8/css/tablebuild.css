@@ -1,0 +1,28 @@
+table, td, th{
+    border: 1px solid #aaaaaa;
+    border-collapse: collapse;
+}
+
+
+table{
+    font-family: Ubuntu, sans-serif;
+}
+
+thead{
+    background-color:#7FB9C2 ;
+    color: #000;
+}
+
+th, td {
+    text-align: center;
+}
+th{
+    background-color: #628CA6;
+    color: #ffff;
+}
+tr:nth-child(odd){
+    background-color: #E7F0ED;
+}
+tr:nth-child(even){
+    background-color: #E7FFED;
+}
