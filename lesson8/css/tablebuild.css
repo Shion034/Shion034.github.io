@@ -6,23 +6,31 @@ table, td, th{
 
 table{
     font-family: Ubuntu, sans-serif;
+    box-shadow: 5px 5px 5px #628CA6;
 }
 
-thead{
+.tableheader,.tablefooter{
     background-color:#7FB9C2 ;
-    color: #000;
+    color: black;
+}
+.tableheader{
+    font-size: 22px;
+}
+.tablefooter{
+    font-size: 10px;
 }
 
 th, td {
     text-align: center;
+    padding: 6px;
 }
-th{
+th ,.height{
     background-color: #628CA6;
     color: #ffff;
 }
-tr:nth-child(odd){
+tr:nth-child(even){
     background-color: #E7F0ED;
 }
-tr:nth-child(even){
+tr:nth-child(odd){
     background-color: #E7FFED;
 }
