@@ -1,0 +1,41 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+
+
+    section{
+        padding-top: 20px;
+    }
+
+   /*---------------------nav decoration----------------------*/
+   nav button{
+       display: none;
+   }
+   nav ul.hide{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   }
+   nav ul {
+       margin-left: 2%;
+   }
+   nav ul li{
+    float:left;
+   }
+   nav ul li .stormcenterpage{
+       color:white;
+       background-color: #24B2C2;
+   }
+
+   nav ul li a {
+       border: none;
+       padding: 10px;
+   }
+
+      /*-----------------------table----------------------------------*/
+
+/*---------------------------------------------------------*/
+main, footer{
+    margin: 0 auto;
+    max-width:700px;
+}
+
+}

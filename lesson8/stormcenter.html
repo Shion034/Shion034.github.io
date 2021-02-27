@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lesson4 assignment page-weather site town page">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Corben:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <title>Droppy|The Weather Site for Families</title>
+</head>
+
+
+<body>
+    <aside id="banner" style=display:block; ></aside>
+    <header>
+        <img class="droppypic" src="../lesson5/images/weatherlogo-2.png" alt="Droppy">
+        <section class="header">
+        <h1 class="headerh1">Droppy</h1>
+        <div class="motto">The Weather Site for Families</div>
+        </section>
+    </header>
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="navBar" class="hide">
+                <li><a href="#">Home</a></li>
+                <li><a class="prestona" href="../lesson6/preston-6.html">Preston</a></li>
+                <li><a href="#">Soda Sorubgs</a></li>
+                <li><a href="#">Fish Heaven</a></li>
+                <li><a class="stormcenterpage" href="../lesson8/stormcenter.html">Storm Center</a></li>
+                <li><a class="garalley" href="../lesson7/gallery-7.html">Gallery</a></li>
+            </ul>
+    </nav>
+
+    <main>
+        <h2>Storm Center</h2>
+        <img src="../lesson8/nikolas-noonan-n_3kdpSkrJo-unsplash (1)_R.jpg" alt="Hurricane">
+        <p>Welcome to strom center! This page is for the user to report a storm or unusual weather event in
+            his or her travel area. Please full in text areas to report storm infromation!
+        </p>
+
+        <section class="userinfo">
+            <h4>Name</h4>
+            <label for="fullname">Enter your name:</label><br>
+            <input type="text" required minlength="5" pattern="[a-zA-Z]" name="fullname">
+
+            <h4>Email</h4>
+            <label for="email-box">Enter your email:</label><br>
+            <input type="email" placeholder="doroppy@example.com" name="email-box">
+
+            <h4>Phone number</h4>
+            <label for="phoneno-box">Enter your phone number:</label><br>
+            <input type="tel" class="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+            placeholder="123-456-7890" required name="phoneno-box">
+
+            <h4>Zipcode</h4>
+            <label for="zip-code">Enter your zipcode:</label><br>
+            <input type="number" required name="zip-code">
+
+        </section>
+
+        <section class="storminfo">
+
+            <h4>Storm type</h4>
+            <label for="stormname">What is the storm type?:</label><br>
+            <input list="stormtype-selection" id="typelist" name="stormname">
+            <datalist id="stormtype-selection">
+                <option value="Flash Flood"></option>
+                <option value="Hail"></option>
+                <option value="Hurricane"></option>
+                <option value="Thunderstorm"></option>
+                <option value="Tornado"></option>
+            </datalist>
+
+            <h4>Storm date</h4>
+            <label for="stormdate">When is the storm occurrence date:</label><br>
+            <input type="date" value="2021-02-28" min="2010-01-01" max="2023-12-31" name="stormdate">
+
+            <h4>Storm severity</h4>
+            
+            <label for="stormrange">How is the storm severity?</label><br>
+            Choose from 0-10:
+            <input id="valueselecter" type="range" min="0" max="10" name="stormrange" step="1">
+            <span id="range-value"></span>
+
+            <h4>Storm region</h4>
+            <label for="stormregion">Where is the storm region?:</label><br>
+            <select id="region-selecter" name="stormregion">
+                <option disabled selected>Select your region...</option>
+                <option value="Preston"></option>
+                <option value="Soda Springs"></option>
+                <option value="Fish Haven"></option>
+            </select>
+
+
+            <h4>User in-denger level</h4>
+            <label for="denger-level">Is it dangerous?:</label><br>
+            <div>
+                <input type="radio" id="yes" name="denger-level" value="yes">
+                <label for="yes">Yes</label>
+
+                <input type="radio" id="maybe" name="denger-level" value="maybe">
+                <label for="maybe">Maybe</label>
+
+                <input type="radio" id="no" name="denger-level" value="no">
+                <label for="no">No</label>
+            </div>
+
+            <h4>Additional information</h4>
+            <label for="addinfo">Enter additional infromation:</label><br>
+            <input type="text" name="addinfo">
+
+            <br>
+            <button class="submittbutton" type="button">Form Submittion</button>
+
+        
+        </section>
+
+    </main>
+
+    <footer>
+        &copy;The Weather Site|Shion Keaty
+        <div>Last update:<span id="currentdate"></span></div>
+    </footer>
+    <script src="../lesson6/js/script.js"></script>
+    <script src="../lesson8/js/range.js"></script>
+ 
+
+    <script src="../CurrentUpdate.js"></script>
+    <script src="../lesson5/js/bannerad.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+</body>
+</html>
