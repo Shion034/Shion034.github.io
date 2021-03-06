@@ -100,86 +100,40 @@ h2{
     font-family: 'Corben', cursive;
     font-size: 2rem;
 }
-.hikingpic{
-    /*width: 100%;*/
-}
 
-/*---------------------------------------------------------*/
-.herodiv{
-    margin: 10px auto;
-    position: relative;
-}
-.summarycontent{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: -20px;
-    margin-bottom: -20px;
-}
-.temper{
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    padding: 1rem;
-    border: solid 2px #2B8E2F;
-    box-shadow: 0 0 10px #111;
-    text-align: center;
-    background-color: rgba(192,255,83,0.8);
-}
-.summarytitle{
-    color: #2B8E2F;
+h3{
     font-family: 'Yusei Magic', sans-serif;
-    font-weight: bold;
-    margin: -5px;
-    font-size: 1.3em;
-}
-.summarypl{
-    text-align: right;
-}
-.summarypr{
-    text-align: left;
-    padding-left: 8px;
-    color: #c534a6;
-    font-weight: bold;
-}
-
-
-figure.herophoto{
+    color: #2B8E2F;
+    font-size: 1.8rem;
     margin: 0;
 }
-main figure img{
-    width:100%;
-}
-/*-----------------------table----------------------------------*/
-.fivedaysforcast{
-    display: none;
-}
-table{
-    margin: auto;
-}
-th{
-    border: solid 1px  #2B8E2F;
-    background-color: rgba(43,142,47,0.8);
-    color: white;
+h5{
     font-family: 'Yusei Magic', sans-serif;
+    color: #2B8E2F;
+    margin-top: 0px;
+    font-size: 1.2rem;
 }
-td{
-    text-align: center;
-    background-color: rgba(192,255,83,0.5);
-}
-.cloud{
-    padding-top: 15%;
-    padding-bottom: 15%;
-}
-/*-----------------------article----------------------------------*/
-.bbq{
-    width:90%;
 
+.framelink{
+    display:inline;
+    color: #ffa217;
+    font-family: 'Corben', cursive;
+    font-size: 15px;
+    font-weight: bold;
 }
-.bbqarticle{
-    margin-top: 30%;
+
+
+/*---------------------------------------------------------*/
+section{
+    background-color:rgba(255, 173, 51, .6) ;
+    padding: 6px;
+    margin-bottom: 10px;
     text-align: center;
-    background-color:rgba(115,241,255,0.3);
 }
+
+/*-----------------------table----------------------------------*/
+
+
 /*-----------------------contact----------------------------------*/
 .contactinfo{
     background-color: rgba(192,255,83,0.5);

@@ -20,17 +20,17 @@
     <aside id="banner" style=display:block; ></aside>
     <header>
         <img class="droppypic"src="img/weatherlogo-2.png" alt="Droppy">
-        <section class="header">
+        <div class="header">
         <h1 class="headerh1">Droppy</h1>
         <div class="motto">The Weather Site for Families</div>
-        </section>
+        </div>
     </header>
 
     <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776; Menu</button>
             <ul id="navBar" class="hide">
-                <li><a href="#">Home</a></li>
-                <li><a class="prestona" href="#">Preston</a></li>
+                <li><a class="home" href="../lesspn9/index.html">Home</a></li>
+                <li><a class="prestona" href="../lesson6/preston-6.html">Preston</a></li>
                 <li><a href="#">Soda Sorubgs</a></li>
                 <li><a href="#">Fish Heaven</a></li>
                 <li><a class="stormcenterpage" href="../lesson8/stormcenter.html">Storm Center</a></li>
@@ -39,7 +39,10 @@
     </nav>
 
     <main>
-      
+      <p class="framelink">Wireframe link ➛</p><span><a href="home-wireframes.html">home-wireframes.html</a></span>
+
+      <div class="cards"></div>
+
 
         <section class="contactinfo">
             <img class="map" src="../lesson5/images/map.png" alt="map">
@@ -61,14 +64,15 @@
 
     </main>
 
-    
+
 
     <footer>
         &copy;The Weather Site|Shion Keaty
         <div>Last update:<span id="currentdate"></span></div>
     </footer>
     <script src="js/script.js"></script>
-    <script src="js/windchill.js"></script>
+    <script src="js/town.js"></script>
+    
 
     <script src="../CurrentUpdate.js"></script>
     <script src="../lesson5/js/bannerad.js"></script>

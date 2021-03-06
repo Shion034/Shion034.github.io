@@ -1,6 +1,12 @@
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
 
+    .cards{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5px;
+    }
+
     nav ul li a{
         padding: 10px;
     }

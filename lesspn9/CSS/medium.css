@@ -9,7 +9,13 @@
     }
     section{
         padding-top: 20px;
+        text-align: left;
+        /*display:flex;
+        flex-direction: row;*/
     }
+    /*section:nth-child(odd){
+        flex-direction: row-reverse;
+    }*/
 
    /*---------------------nav decoration----------------------*/
    nav button{
@@ -25,7 +31,7 @@
    nav ul li{
     float:left;
    }
-   nav ul li .prestona{
+   nav ul li .home{
        color:white;
        background-color: #24B2C2;
    }
