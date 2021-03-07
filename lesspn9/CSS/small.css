@@ -48,6 +48,8 @@ header, footer{
 footer{
    text-align: center;
 }
+
+
 /*---------------------nav decoration----------------------*/
 
 nav button{
@@ -111,7 +113,12 @@ h5{
     font-family: 'Yusei Magic', sans-serif;
     color: #2B8E2F;
     margin-top: 0px;
+    margin-bottom: 5px;;
     font-size: 1.2rem;
+}
+
+p{
+    margin:0;
 }
 
 .framelink{
@@ -131,6 +138,9 @@ section{
     text-align: center;
 }
 
+img{
+    width:100%;
+}
 /*-----------------------table----------------------------------*/
 
 

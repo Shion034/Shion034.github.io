@@ -13,7 +13,7 @@ fetch(requestURL)
 //select out put location******************************************************************************************
      const cards = document.querySelector(".cards")
 
-     prophets.forEach(prophet => {
+      prophets.forEach(prophet => {
       let card = document.createElement('section');
       let h2 = document.createElement('h2');
       let p1 = document.createElement('p');
