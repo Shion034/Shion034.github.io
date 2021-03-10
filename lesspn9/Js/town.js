@@ -31,7 +31,7 @@ fetch(dataUrl)
         p1.textContent = `Year Founded: ${townNames.yearFounded}`;
         p2.textContent = `Population: ${townNames.currentPopulation}`;
         p3.textContent = `Annual Rain Fall: ${townNames.averageRainfall}`;
-        pimg.setAttribute('src', townNames.photo);
+        pimg.setAttribute('src', `img/${townNames.photo}`);
         pimg.setAttribute('alt',`Images`);
 
         article.append (h3);
