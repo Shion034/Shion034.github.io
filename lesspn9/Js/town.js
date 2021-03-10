@@ -13,10 +13,10 @@ fetch(dataUrl)
     const cards = document.querySelector(".cards")
 
 /*---------------------------------------Preston Town-------------------------------------------------------- */
-     const townNames = document.querySelector('.Preston'||'.Fish Heaven'||'.Soda Spring');
-     const prefilter  = towns.filter(x => x.name == "Preston"||"Fish Heaven"||"Soda Spring");
+     //const townNames = document.querySelector('.townNames');
+     const townNames  = towns.filter(x => x.name == "Preston"||x.name == "Fish Haven"||x.name == "Soda Springs");
 
-     prefilter.forEach(prestontown => {
+     townNames.forEach(townNames => {
         let card = document.createElement('section');
         let article = document.createElement('article');
         let h3 = document.createElement('h3');
@@ -26,18 +26,20 @@ fetch(dataUrl)
         let p3 = document.createElement('p');
         let pimg = document.createElement ('img');
 
-        h3.textContent = `${prestontown.name}`;
-        h5.textContent = `${prestontown.motto}`;
-        p1.textContent = `Year Founded: ${prestontown.yearFounded}`;
-        p2.textContent = `Population: ${prestontown.currentPopulation}`;
-        p3.textContent = `Annual Rain Fall: ${prestontown.averageRainfall}`;
-        pimg.setAttribute('src', prestontown.photo);
-        
+        h3.textContent = `${townNames.name}`;
+        h5.textContent = `${townNames.motto}`;
+        p1.textContent = `Year Founded: ${townNames.yearFounded}`;
+        p2.textContent = `Population: ${townNames.currentPopulation}`;
+        p3.textContent = `Annual Rain Fall: ${townNames.averageRainfall}`;
+        pimg.setAttribute('src', townNames.photo);
+        pimg.setAttribute('alt',`Images`);
+
         article.append (h3);
         article.append (h5);
         article.append (p1);
         article.append (p2);
         article.append (p3);
+
         card.append(article);
         card.append (pimg);
         cards.append(card);
