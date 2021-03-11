@@ -1,4 +1,4 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=2ba8af18e29c9d91e0f7848f6e1aebec";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=2ba8af18e29c9d91e0f7848f6e1aebec";
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -18,3 +18,4 @@ fetch(apiURL)
   document.getElementById('icon').setAttribute('alt', desc);
 
 });
+
