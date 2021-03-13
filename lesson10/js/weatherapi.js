@@ -9,6 +9,7 @@ fetch(apiURL)
   
   // note the concatenation
   const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png'; 
+
   // note how we reference the weather array 
   const desc = jsObject.weather[0].description;  
    // informational specification only
@@ -16,6 +17,8 @@ fetch(apiURL)
   // focus on the setAttribute() method
   document.getElementById('icon').setAttribute('src', imagesrc);  
   document.getElementById('icon').setAttribute('alt', desc);
+
+
 
 });
 

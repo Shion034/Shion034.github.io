@@ -53,7 +53,7 @@
 
         <section class="temper">
             <p class="summarytitle">Weather Summary</p>
-            <img src="../lesson5/images/sun.png" alt="sunny!">
+            <img src="" alt="" id="icon"></p>
             <div class=summarycontent>
                 
                 <p class="summarypl">
@@ -64,8 +64,8 @@
                     wind Speed: <br>
                 </p>
                 <p class="summarypr">
-                    Sunny<br>
-                    44℉<br>
+                    <span id="weatherdescription"></span> &nbsp;<br>
+                    <span id="current-temp"></span>&deg; F<br>
                     <span id="windChill"></span>℉<br>
                     69%<br>
                     5　mph<br>
@@ -147,6 +147,7 @@
         <div>Last update:<span id="currentdate"></span></div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/weatherapi.js"></script>
     <script src="js/windchill.js"></script>
 
     <script src="../CurrentUpdate.js"></script>
