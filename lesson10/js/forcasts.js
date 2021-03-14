@@ -17,25 +17,35 @@ fetch(forcastURL)
           
         
         
+/*listの数字を＋＋にしていきたい、かつ、18：00のものをえらびたい！*/
 
-
-        let day = 0;
-        let date = jsObject.list[day].dt_txt;
-        let thefive = date.includes("18:00:00");
-        console.log(thefive);
+        let listnumber;//listの数字
+        //let numBer = jsObject.list[listnumber].dt_txt;//0のdt_txt
+        let numBerlength = jsObject.list.length;//40
+        let time ;/*= numBer.includes("18:00:00");//OK*/
+        
+            //console.log(numBer);
+            //console.log(numBerlength);
+            //console.log(time);
+        
         const dayofweek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-        if(thefive="true"){
-            
+
+        let day = 0;//while のday
+
+        
+
+    for (let listnumber = 0; listnumber<=numBerlength; listnumber++){
+
+    if(time=jsObject.list[listnumber].dt_txt.includes("18:00:00")){
         while(day<40){
-
-
-
         let d = new Date(jsObject.list[5].dt_txt);
         document.getElementById(`dayofweek${day+1}`).textContent = dayofweek[d.getDay()];
         document.getElementById(`forecast${day+1}`).textContent = jsObject.list[5].main.temp;
 
         const image = 'http://openweathermap.org/img/wn/' + jsObject.list[5].weather[0].icon + '@2x'+'.png';
         document.getElementById(`forecastimages${day+1}`).setAttribute('src', image); 
-        day++}
-        }else{}
+        day++}//←このdayは出力のためだけの+1のday
+    }
+
+}
     });
