@@ -65,8 +65,8 @@
                 </p>
                 <p class="summarypr">
                     <span id="weathredescription"></span> &nbsp;<br>
-                    <span id="current-temp"></span>&deg; F<br>
-                    <span id="windChill"></span>℉<br>
+                    <span id="current-temp"></span>&deg;F<br>
+                    <span id="windChill"></span>&deg;F<br>
                     <span id="humidity"></span>%<br>
                     <span id="windspeed"></span>mph<br>
                 </p>
@@ -79,36 +79,39 @@
         <table class="FForcast">
             <tbody>
                 <tr class="dayhead">
-                    <th >Mon</th>
-                    <th >Tue</th>
-                    <th >Wed</th>
-                    <th >Thu</th>
-                    <th >Fri</th>
+                    <th ><span id ="dayofweek1" ></span></th>
+                    <th ><span id ="dayofweek2" ></span></th>
+                    <th ><p><span id ="dayofweek3" ></span></th>
+                    <th ><span id ="dayofweek4" ></span></th>
+                    <th ><span id ="dayofweek5" ></span></th>
                 </tr>
                 <tr>
                     <td>
-                        <img src="../lesson5/images/sun.png" alt="sunny!">
-                        <div class="data">44℉</div>
+                        <img src="" alt="" id="forecastimages1">
+                        <div id ="forecast1"></div>&deg; F
                     </td>
                     <td>
-                        <img src="../lesson5/images/sun.png" alt="sunny!">
-                        <div class="data">43℉</div>
+                        <img src="" alt="" id="forecastimages2">
+                        <span id ="forecast2"></span>&deg; F
                     </td>
                     <td>
-                        <img src="../lesson5/images/sun.png" alt="sunny!">
-                        <div class="data">48℉</div>
+                        <img src="" alt="" id="forecastimages3">
+                        <span id ="forecast3"></span>&deg; F
                     </td>
                     <td>
-                        <img class="cloud" src="../lesson5/images/cloud.png" alt="clowdy!">
-                        <div class="data">38℉</div>
+                        <img src="" alt="" id="forecastimages4">
+                        <span id ="forecast4"></span>&deg; F
                     </td>
                     <td>
-                        <img src="../lesson5/images/mr.snow.png" alt="snowy!">
-                        <div class="data">31℉</div>
+                        <img src="" alt="" id="forecastimages5">
+                        <span id ="forecast5"></span>&deg; F
                     </td>
                 </tr>
             </tbody>
         </table>
+
+
+
         </div>
         <div class="bbqarticle">
         <h2> BBQ on picnic! </h2>
@@ -148,6 +151,7 @@
     </footer>
     <script src="js/script.js"></script>
     <script src="js/preston-weather.js"></script>
+    <script src="js/forcasts.js"></script>
     <script src="js/windchill.js"></script>
 
     <script src="../CurrentUpdate.js"></script>
