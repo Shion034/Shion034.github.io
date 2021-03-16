@@ -5,47 +5,45 @@ fetch(forcastURL)
     .then((response) => response.json())
     .then((jsObject) =>{
         console.log(jsObject);
-        
-        // reduce ther list array to the five forecasts ....40
-            //filter
-                // feed the filter a condition...18:00:00   dt_txt see if it includes()
-            //const timefilter = 
-        //loot through each of the forecast days
-
-        //if (jsObject.list.dt_txt^"18:00:00"){
-        
-          
-        
-        
-/*listの数字を＋＋にしていきたい、かつ、18：00のものをえらびたい！*/
-
-        let listnumber;//listの数字
-        //let numBer = jsObject.list[listnumber].dt_txt;//0のdt_txt
-        let numBerlength = jsObject.list.length;//40
-        let time ;/*= numBer.includes("18:00:00");//OK*/
-        
-            //console.log(numBer);
-            //console.log(numBerlength);
-            //console.log(time);
-        
         const dayofweek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
-        let day = 0;//while のday
+        const weahterOeday=jsObject["list"].filter((day)=>
+        day.dt_txt.includes("18:00:00"));
+        console.log(weahterOeday);
 
+
+
+        /*let listnumber;//listの数字
+        let numBer = jsObject.list[listnumber].dt_txt;//0のdt_txt*/
+        let numBerlength = jsObject.list.length;//40
+        let oElength = weahterOeday.length;//5
+        /*let time ;/*= numBer.includes("18:00:00");//OK*/
         
+            //console.log(numBer);
+            console.log(numBerlength);
+            console.log(oElength);
+            //console.log(time);
 
-    for (let listnumber = 0; listnumber<=numBerlength; listnumber++){
+    for (let i = 0; i<=numBerlength; i++){
+        let day = weahterOeday[i];
+        const image = 'http://openweathermap.org/img/wn/' +day.weather[0].icon + '@2x'+'.png';
+        const desCription = day.weather[0].description;
+        let date = new Date(day.dt_txt);
+        let weeKs = dayofweek[date.getDay()];
+        /*document.querySelector(`.forecastimages${i+1} img`).setAttribute('src', image); 
+        document.querySelector(`.forecastimages${i+1} img`).setAttribute('src', desCription); 
 
-    if(time=jsObject.list[listnumber].dt_txt.includes("18:00:00")){
-        while(day<40){
-        let d = new Date(jsObject.list[5].dt_txt);
-        document.getElementById(`dayofweek${day+1}`).textContent = dayofweek[d.getDay()];
-        document.getElementById(`forecast${day+1}`).textContent = jsObject.list[5].main.temp;
+        document.querySelector(`.forecast${i+1}div`).innerHTML = `${day.main.temp}`;
 
-        const image = 'http://openweathermap.org/img/wn/' + jsObject.list[5].weather[0].icon + '@2x'+'.png';
-        document.getElementById(`forecastimages${day+1}`).setAttribute('src', image); 
-        day++}//←このdayは出力のためだけの+1のday
-    }
+        /*day of week output----------------------------------------------------------------------*/
+        document.getElementById(`dayofweek${i+1}`).textContent = weeKs;
+
+        /*forecast output--------------------------------------------------------------------------*/
+        document.getElementById(`forecast${i+1}`).textContent = day.main.temp;
+
+        /*image output-----------------------------------------------------------------------------*/
+
+        document.getElementById(`forecastimages${i+1}`).setAttribute('src', image); 
 
 }
     });
