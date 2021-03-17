@@ -1,0 +1,171 @@
+
+/*color scheme
+#73F1FF: light blue
+#C0FF53: light green
+#2B8E2F: green
+#FF4BD7: pink  FF00A1   FFA8EA
+#ffa217: orange
+*/
+
+
+
+body{
+    background-color:#FFFFFF;
+}
+/*-----------------bannerAd--------------*/
+aside{
+background: linear-gradient(to bottom, rgba(255,168,234,1) 0%,rgba(255,75,215,1) 50%,rgba(255,0,161,1) 100%);
+    color: white;
+    font-family: 'Yusei Magic', sans-serif;
+    padding:10px;
+}
+
+/*-----------------headter/footer decoration---------------*/
+header{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.droppypic{
+    width:60px;
+    height: auto;
+    margin: 10px;
+}
+.headerh1{
+    display:inline;
+    font-family: 'Corben', cursive;
+    color:#FF4BD7;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.motto{font-size: 20px;}
+header, footer{
+    color: #2B8E2F;
+    background-color: #C0FF53;
+    font-family: 'Yusei Magic', sans-serif;
+}
+footer{
+   text-align: center;
+}
+
+
+/*---------------------nav decoration----------------------*/
+
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    font-family: 'Yusei Magic', cursive;
+    font-weight: bold;
+    color: #FF4BD7;
+}
+nav{
+    margin-top: 10px;
+    background-color: #73F1FF;
+    font-family: 'Yusei Magic', sans-serif;
+}
+nav ul{
+    list-style-type: none;
+    padding: 2%;
+}
+nav ul li{
+    display: block;
+    font-size: 1em;
+}
+
+nav ul li a {
+    color: #FF4BD7;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    text-align: center;
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li a:hover{
+    background-color: #24B2C2;
+    color: #fff;
+}
+
+nav ul.hide{display: none;}
+
+/*---------------------------------------------------------*/
+
+h2{
+    color: #ffa217;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Corben', cursive;
+    font-size: 2rem;
+}
+
+h3{
+    font-family: 'Yusei Magic', sans-serif;
+    color: #2B8E2F;
+    font-size: 1.8rem;
+    margin: 0;
+}
+h5{
+    font-family: 'Yusei Magic', sans-serif;
+    color: #2B8E2F;
+    margin-top: 0px;
+    margin-bottom: 5px;;
+    font-size: 1.2rem;
+}
+
+p{
+    margin:0;
+}
+
+.framelink{
+    display:inline;
+    color: #ffa217;
+    font-family: 'Corben', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/*---------------------------------------------------------*/
+section{
+    background-color:rgba(255, 173, 51, .6) ;
+    padding: 6px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+img{
+    width:100%;
+}
+/*-----------------------table----------------------------------*/
+
+
+/*-----------------------contact----------------------------------*/
+.contactinfo{
+    background-color: rgba(192,255,83,0.5);
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 30px;
+    font-size: 12px;
+}
+.articlep{
+    text-align: left;
+    padding:3%;
+}
+.map{
+    display:none;
+}
+.sns{
+ width: 15%;
+}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
