@@ -7,9 +7,7 @@
         height: auto;
         margin: 10px;
     }
-    section{
-        padding-top: 20px;
-    }
+
 
    /*---------------------nav decoration----------------------*/
    nav button{
@@ -48,7 +46,10 @@
     width: 60%;
     float: right;
 }
+.eventsection{
 
+    margin-top: 0px;
+}
 /*-----------------------------contactimf------------------------------*/
 .map{
     display: inline;

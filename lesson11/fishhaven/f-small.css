@@ -171,12 +171,25 @@ td{
     padding-bottom: 15%;
 }
 /*-----------------------article----------------------------------*/
+.eventsection{
+    background-color: rgba(192,255,83,0.8);
+    margin-top: 100px;
+}
+.prestonevents{
+    text-align: center;
+}
+#evtitle{
+    margin-bottom: 0;
+}
+
+
+
 .bbq{
     width:90%;
 
 }
 .bbqarticle{
-    margin-top: 30%;
+    
     text-align: center;
     background-color:rgba(115,241,255,0.3);
 }

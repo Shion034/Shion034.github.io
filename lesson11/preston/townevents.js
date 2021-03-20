@@ -10,40 +10,34 @@ fetch(dataUrl)
      const towns = jsonObject['towns'];
 
      //select out put location******************************************************************************************
-    const cards = document.querySelector(".cards")
+    const cards = document.querySelector(".prestonevents")
 
 /*---------------------------------------Preston Town-------------------------------------------------------- */
      //const townNames = document.querySelector('.townNames');
-     const townNames  = towns.filter(x => x.name == "Preston"||x.name == "Fish Haven"||x.name == "Soda Springs");
+     const townNames  = towns.filter(x => x.name == "Preston");
 
      townNames.forEach(townNames => {
         let card = document.createElement('section');
-        let article = document.createElement('article');
-        let h3 = document.createElement('h3');
-        let h5 = document.createElement('h5');
+      
         let p1 = document.createElement('p');
         let p2 = document.createElement('p');
         let p3 = document.createElement('p');
-        let pimg = document.createElement ('img');
 
-        h3.textContent = `${townNames.name}`;
-        h5.textContent = `${townNames.motto}`;
-        p1.textContent = `Year Founded: ${townNames.yearFounded}`;
-        p2.textContent = `Population: ${townNames.currentPopulation}`;
-        p3.textContent = `Annual Rain Fall: ${townNames.averageRainfall}`;
-        pimg.setAttribute('src', `img/${townNames.photo}`);
-        pimg.setAttribute('alt',`Images`);
 
-        article.append (h3);
-        article.append (h5);
-        article.append (p1);
-        article.append (p2);
-        article.append (p3);
+       
+        p1.textContent = `Year Founded: ${townNames.events[0]}`;
+        p2.textContent = `Year Founded: ${townNames.events[1]}`;
+        p3.textContent = `Year Founded: ${townNames.events[2]}`;
 
-        card.append(article);
-        card.append (pimg);
+
+      
+        card.append (p1);
+        card.append (p2);
+        card.append (p3);
+
         cards.append(card);
     });
+
 
 
 

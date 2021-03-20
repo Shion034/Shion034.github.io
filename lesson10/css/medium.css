@@ -7,9 +7,7 @@
         height: auto;
         margin: 10px;
     }
-    section{
-        padding-top: 20px;
-    }
+    
 
    /*---------------------nav decoration----------------------*/
    nav button{
@@ -41,6 +39,10 @@
 }
 
 /*---------------------------article-------------------------------------*/
+.eventsection{
+
+    margin-top: 0px;
+}
 .bbqarticle{
     margin-top: 0;
 }
