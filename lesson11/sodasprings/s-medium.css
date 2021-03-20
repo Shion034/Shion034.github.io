@@ -1,0 +1,80 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+
+
+    img{
+        width:90px;
+        height: auto;
+        margin: 10px;
+    }
+    section{
+        padding-top: 20px;
+    }
+
+   /*---------------------nav decoration----------------------*/
+   nav button{
+       display: none;
+   }
+   nav ul.hide{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   }
+   nav ul {
+       margin-left: 2%;
+   }
+   nav ul li{
+    float:left;
+   }
+   nav ul li .sodasprings{
+       color:white;
+       background-color: #24B2C2;
+   }
+
+   nav ul li a {
+       border: none;
+       padding: 10px;
+   }
+
+      /*-----------------------table----------------------------------*/
+.fivedaysforcast{
+    display: block;
+}
+
+/*---------------------------article-------------------------------------*/
+.bbqarticle{
+    margin-top: 0;
+}
+.bbq{
+    width: 60%;
+    float: right;
+}
+
+/*-----------------------------contactimf------------------------------*/
+.map{
+    display: inline;
+    width: 30%;
+    float: left;
+}
+.contactinfo{
+    height: 210px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+}
+.snsimg{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+}
+.sns{
+    width: 60%;
+    margin: 0;
+   }
+/*---------------------------------------------------------*/
+main, footer{
+    margin: 0 auto;
+    max-width:700px;
+}
+
+}
