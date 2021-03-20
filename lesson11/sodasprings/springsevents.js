@@ -14,7 +14,7 @@ fetch(dataUrl)
 
 /*---------------------------------------Preston Town-------------------------------------------------------- */
      //const townNames = document.querySelector('.townNames');
-     const townNames  = towns.filter(x => x.name == "Preston");
+     const townNames  = towns.filter(x => x.name == "Soda Springs");
 
      townNames.forEach(townNames => {
         let card = document.createElement('section');
