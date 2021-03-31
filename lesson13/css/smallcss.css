@@ -8,3 +8,10 @@ White--- #EDEDED
 Black--- #333848
 yellow--- #FEE865
 red--- #E24568*/
+
+body{
+    background-color: #EDEDED;
+}
+header, footer{
+    background-color: #333848;
+}
