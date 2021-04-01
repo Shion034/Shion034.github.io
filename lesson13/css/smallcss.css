@@ -11,7 +11,62 @@ red--- #E24568*/
 
 body{
     background-color: #EDEDED;
+    width: 0 auto;
 }
 header, footer{
     background-color: #333848;
+}
+/*-------header----------------------------------------------------------------------------------------------------*/
+#top{
+
+}
+.logo{
+    width:40%;
+    display: block;
+    margin: auto;
+
+}
+
+
+/*nav*/
+.head-nav{
+    display: block;
+ 
+}
+nav button{
+    background-color: #FEE865;
+    color: #333848;
+    border: none;
+    font-size: 1.5rem;
+    margin-bottom:2%;
+
+}
+
+nav ul{
+    list-style-type: none;
+    padding:0;
+}
+nav ul li{
+    display: block;
+    border-bottom: solid 1px #378BA2;
+}
+nav ul li a{
+    display: block;
+    color: #EDEDED;
+    text-decoration: none;
+    padding: 2%;
+}
+
+.hero-img{
+    width: 100%;
+}
+
+nav ul.hide{display: none;}
+/*-------footer----------------------------------------------------------------------------------------------------*/
+footer{
+    color: #EDEDED;
+    display: grid;
+}
+.snsImg{
+    width:65px;
 }

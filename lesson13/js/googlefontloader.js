@@ -1,1 +1,1 @@
-WebFont.load({google: {families: [ 'Yusei Magic','Corben:wght@900']}});
+WebFont.load({google: {families: [ 'Chango','Della Respira']}});
