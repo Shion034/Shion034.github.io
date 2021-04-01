@@ -1,0 +1,59 @@
+{
+    "events" :[
+      {  "name": "Hacchi New Year's Decoration",
+        "date":"January 2nd",
+        "time":"10am-18pm",
+        "place":"Hacchi 1F",
+        "fee":"free",
+        "image":"decoration"
+      },
+      {  "name": "Craft school",
+        "date":"January 30th",
+        "time":"10am-12pm",
+        "place":"recycle plaza",
+        "fee":"free",
+        "image":"crafts"
+      },
+      {  "name": "Emburi in Hacchi",
+        "date":"January 13th-21nd",
+        "time":"9am-21pm",
+        "place":"Hacchi 1F Gallary",
+        "fee":"free",
+        "image":"emburi"
+      },
+      {  "name": "Think Back 3.11",
+        "date":"March 11th-28th",
+        "time":"9am-19pm",
+        "place":"Hacchi 1F Theater Room",
+        "fee":"free",
+        "image":"3.11"
+      },
+      {  "name": "Star Festival",
+        "date":"July 7th-12",
+        "time":"9am-21pm",
+        "place":"Main street",
+        "fee":"free",
+        "image":"starfestival"
+      },
+      {  "name": "Sansha Taisai Festival",
+        "date":"July 31st-August 4th",
+        "time":"9am-21pm",
+        "place":"Main street, City Hale",
+        "fee":"free",
+        "image":"sansha"
+      },
+      {  "name": "Fireworks Festival",
+        "date":"August 18th",
+        "time":"6pm-9pm",
+        "place":"Tatehana Coast",
+        "fee":"free",
+        "image":"fireworks"
+      },
+      {  "name": "Christmas Craft class",
+        "date":"November 29th",
+        "time":"10am-12am",
+        "place":"Utory",
+        "fee":"free",
+        "image":"tree"
+      }
+    ] }
