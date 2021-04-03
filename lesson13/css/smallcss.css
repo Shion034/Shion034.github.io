@@ -26,8 +26,6 @@ header, footer{
     margin: auto;
 
 }
-
-
 /*nav*/
 .head-nav{
     display: block;
@@ -41,7 +39,6 @@ nav button{
     margin-bottom:2%;
 
 }
-
 nav ul{
     list-style-type: none;
     padding:0;
@@ -56,12 +53,45 @@ nav ul li a{
     text-decoration: none;
     padding: 2%;
 }
-
 .hero-img{
     width: 100%;
 }
 
 nav ul.hide{display: none;}
+/*-------weather----------------------------------------------------------------------------------------------------*/
+.weatheSection{
+    margin-left: 2%;
+    width:85%;
+    padding:5%;
+    box-shadow: 0 0 5px  #378BA2  ;
+}
+
+.CW{
+    width: auto;
+    display: grid;
+    grid-template-columns: 100px 230px;
+}
+#icon{
+    margin: 15px;
+    width: 70px;
+}
+/*.wContent{
+    padding-left: 5%;
+}*/
+
+.threedaysforcast{
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.onecast{
+    text-align: center;
+}
+#w-temmp1,#w-temmp2,#w-temmp3{
+    display: flex;
+}
+
+
 /*-------footer----------------------------------------------------------------------------------------------------*/
 footer{
     color: #EDEDED;

@@ -26,9 +26,12 @@
                 <a href="#" class="logo-link" rel="home">
                     <img src="img/home/logo.png" alt="Hachinohe-chamber-logo" class="logo">
                 </a>
+                <h1>Hachinohe City<br>
+                        Chamber of Commerse
+                    </h1>
             </span>
             <nav class="head-nav">
-                <button onclick="meNue()">&#9778;</button>
+                <button onclick="meNue()">MENU  &nbsp; &#9778;</button>
                 <ul id="naVigation" class="hide">
                     <li><a class="home" href="index.html">Home</a></li>
                     <li><a class="city" href="#">Hachinohe City</a></li>
@@ -61,19 +64,46 @@
                 I will inform advantageous career support information to young and midul age citison.
             </p>
         </section>
-        <div id="addd">
-
-        </div>
+        <section class="carrerSupport">
+            We are offering opportunities to study certificates every week.
+        </section>
+        
 
         <section class="weatheSection">
-            <h4>To day's weather</h4>
-            <img src="" alt="" id="icon">
-            <div class="wContent">
-                <p>
-                    Weather: &nbsp;<span id="w-output"></span><br>
-                    Temperature: &nbsp;<span id="t-output"></span>&deg;F<br>
-                    Humidity: &nbsp;<span id="t-output"></span>&deg;F<br>
-                </p>
+            <h4>Today's weather</h4>
+            <div class="CW">
+                <img src="" alt="" id="icon">
+                <div class="wContent">
+                    <p>
+                        Weather: &nbsp;<span id="w-output" class="day-weather"></span><br>
+                        Temperature: &nbsp;<span id="t-output" class="day-weather"></span>&deg;F<br>
+                        Humidity: &nbsp;<span id="h-output" class="day-weather"></span>&deg;F<br>
+                    </p>
+                </div>
+            </div>
+            <h4>Three days forcasts</h4>
+            <div class="threedaysforcast">
+                <div id="threeCasts1" class="onecast">
+                    <p id="day1"></p>
+                    <img src="" alt="" id="w-img1">
+                    <div>
+                    <span id ="w-temp1"></span>&deg; F
+                    </div>
+                </div>
+                <div id="threeCasts2" class="onecast">
+                    <p id="day2"></p>
+                    <img src="" alt="" id="w-img2">
+                    <div>
+                    <span id ="w-temp2"></span>&deg; F
+                    </div>
+                </div>
+                <div id="threeCasts3" class="onecast">
+                    <p id="day3"></p>
+                    <img src="" alt="" id="w-img3">
+                    <div>
+                    <span id ="w-temp3"></span>&deg; F
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -82,6 +112,9 @@
         </div>
 
         <div class="join-member">
+
+        </div>
+        <div id="addd">
 
         </div>
     </main>
@@ -104,19 +137,17 @@
             </p>
         </div>
         <div id="sNs">
-            <a href="https://www.facebook.com/"><img src="img/FB.png" class="snsImg">
-                <span class="snsName">facebook</span></a>
-            <a href="https://instagram.com/"><img src="img/IG.png" class="snsImg">
-                <span class="snsName">Instagram</span></a>
-            <a href="https://www.twitter.com/"><img src="img/TW.png" class="snsImg">
-                <span class="snsName">Twitter</span></a>
-            <a href="https://www.pinterest.com/"><img src="img/PIN.png" class="snsImg">
-                <span class="snsName">Pinterest</span></a>
+            <a href="https://www.facebook.com/"><img src="img/FB.png" class="snsImg"></a>
+            <a href="https://instagram.com/"><img src="img/IG.png" class="snsImg"></a>
+            <a href="https://www.twitter.com/"><img src="img/TW.png" class="snsImg"></a>
+            <a href="https://www.pinterest.com/"><img src="img/PIN.png" class="snsImg"></a>
+
         </div>
         
     </footer>
 
     <script src="js/cw.js"></script>
+    <script src="js/threecast.js"></script>
     <script src="js/script.js"></script>
     <!--<script src="js/googlefontloader.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>-->
