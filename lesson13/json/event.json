@@ -26,21 +26,21 @@
         "time":"9am-19pm",
         "place":"Hacchi 1F Theater Room",
         "fee":"free",
-        "image":"3.11"
+        "image":"3.11.jpg"
       },
       {  "name": "Star Festival",
         "date":"July 7th-12",
         "time":"9am-21pm",
         "place":"Main street",
         "fee":"free",
-        "image":"starfestival"
+        "image":"starfestival.jpg"
       },
       {  "name": "Sansha Taisai Festival",
         "date":"July 31st-August 4th",
         "time":"9am-21pm",
         "place":"Main street, City Hale",
         "fee":"free",
-        "image":"sansha"
+        "image":"sansha.jpg"
       },
       {  "name": "Fireworks Festival",
         "date":"August 18th",
