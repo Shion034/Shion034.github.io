@@ -11,10 +11,15 @@ red--- #E24568*/
 
 body{
     background-color: #EDEDED;
-    width: 0 auto;
+    width: 100%;
+    margin:0;
 }
 header, footer{
     background-color: #333848;
+}
+main{
+    width: 95%;
+    margin:5%;
 }
 /*-------header----------------------------------------------------------------------------------------------------*/
 #top{
@@ -42,10 +47,12 @@ nav button{
 nav ul{
     list-style-type: none;
     padding:0;
+    border-bottom: solid 1px #378BA2;
+    border-top: solid 1px #378BA2;
 }
 nav ul li{
     display: block;
-    border-bottom: solid 1px #378BA2;
+    
 }
 nav ul li a{
     display: block;
@@ -58,6 +65,19 @@ nav ul li a{
 }
 
 nav ul.hide{display: none;}
+
+.second-nav{
+    border-bottom:none;
+
+}
+.Snav-ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:0;
+}
+.Snav-li{
+    text-align: center;
+}
 /*-------weather----------------------------------------------------------------------------------------------------*/
 .weatheSection{
     margin-left: 2%;
@@ -69,11 +89,11 @@ nav ul.hide{display: none;}
 .CW{
     width: auto;
     display: grid;
-    grid-template-columns: 100px 230px;
+    grid-template-columns: 1fr 2fr;
 }
 #icon{
-    margin: 15px;
-    width: 70px;
+    margin: 15%;
+    width: 70%;
 }
 /*.wContent{
     padding-left: 5%;
@@ -92,11 +112,24 @@ nav ul.hide{display: none;}
 }
 
 
+
+.join-member{
+    background-color:#378BA2 ;
+    text-align: center;
+}
+
 /*-------footer----------------------------------------------------------------------------------------------------*/
 footer{
+    padding-left: 5%;
     color: #EDEDED;
     display: grid;
 }
 .snsImg{
     width:65px;
+   
+}
+#sNs{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
