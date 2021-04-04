@@ -1,3 +1,5 @@
+
+
 /*
 Title font---font-family: 'Chango', cursive;
 Other font---font-family: 'Della Respira', serif;
@@ -12,12 +14,13 @@ red--- #E24568*/
 body{
     background-color: #EDEDED;
     width: 100%;
-    margin:0;
+
 }
 header, footer{
     background-color: #333848;
 }
 main{
+    margin: 0;
     width: 95%;
     margin:3%;
 }
@@ -141,13 +144,20 @@ nav ul.hide{display: none;}
 .certificate a{
 text-decoration: none;
 }
+
+.certificate a:hover{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 /*-------weather----------------------------------------------------------------------------------------------------*/
 .www{
-    display: flex;
-    flex-direction: column;
+
     align-items: center;
 }
 .weatheSection{
+    display: flex;
+    flex-direction: column;
     padding:5%;
     box-shadow: 0 0 5px  #378BA2  ;
 }
@@ -217,6 +227,10 @@ text-decoration: none;
 }
 .join a{
     text-decoration: none;
+}
+.join a:hover{
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 
