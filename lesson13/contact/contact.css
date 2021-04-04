@@ -1,4 +1,4 @@
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 34rem) {
 /*
 Title font---font-family: 'Chango', cursive;
 Other font---font-family: 'Della Respira', serif;
@@ -9,6 +9,10 @@ White--- #EDEDED
 Black--- #333848
 yellow--- #FEE865
 red--- #E24568*/
+main{
+    width: 900px;
+    margin: 0 auto;
+}
 
 #chamberinfo{
     display: flex;
