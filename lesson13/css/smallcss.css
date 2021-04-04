@@ -19,8 +19,42 @@ header, footer{
 }
 main{
     width: 95%;
-    margin:5%;
+    margin:3%;
 }
+/*-------fonts----------------------------------------------------------------------------------------------------*/
+h1{
+    color: #FEE865;
+    font-family: 'PT Serif', serif;
+}
+#top{
+    text-align: center;
+}
+h2{
+    font-family: 'PT Serif', serif;
+}
+h4{
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+}
+h5{ font-size: 1.5rem;
+    font-family: 'PT Serif', serif;
+    background-color: rgba(254, 232, 101, 0.5);
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin: 0;
+    padding: 2%;
+}
+h6{ font-size: 1rem;
+    font-family: 'PT Serif', serif;
+    background-color: #333848;
+    color: #EDEDED;
+    margin: 0;
+    padding: 2%;
+}
+p{
+    font-family: 'Della Respira', serif;
+}
+
 /*-------header----------------------------------------------------------------------------------------------------*/
 #top{
 
@@ -31,14 +65,15 @@ main{
     margin: auto;
 
 }
-/*nav*/
+/*------nav-----*/
 .head-nav{
     display: block;
  
 }
 nav button{
-    background-color: #FEE865;
-    color: #333848;
+    background-color: #378BA2;
+    color: #EDEDED;
+    font-family: 'PT Serif', serif;
     border: none;
     font-size: 1.5rem;
     margin-bottom:2%;
@@ -52,7 +87,8 @@ nav ul{
 }
 nav ul li{
     display: block;
-    
+    font-family: 'PT Serif', serif;
+    font-size: 15px;
 }
 nav ul li a{
     display: block;
@@ -60,6 +96,15 @@ nav ul li a{
     text-decoration: none;
     padding: 2%;
 }
+
+nav ul li a:hover{
+    background-color: #378BA2;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FEE865;
+}
+
+
 .hero-img{
     width: 100%;
 }
@@ -68,7 +113,6 @@ nav ul.hide{display: none;}
 
 .second-nav{
     border-bottom:none;
-
 }
 .Snav-ul{
     display: grid;
@@ -78,10 +122,32 @@ nav ul.hide{display: none;}
 .Snav-li{
     text-align: center;
 }
+/*-------career----------------------------------------------------------------------------------------------------*/
+.carrerSupport{
+    background-color: rgba(254, 232, 101, 0.5);
+    text-align: center;
+    margin-right:5%;
+    margin-bottom: 5%;
+}
+.certificate{
+    color: #EDEDED;
+    background-color: #378BA2;
+    font-family: 'PT Serif', serif;
+    border: none;
+    font-size: 1.5rem;
+    margin: 3%;
+}
+
+.certificate a{
+text-decoration: none;
+}
 /*-------weather----------------------------------------------------------------------------------------------------*/
+.www{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .weatheSection{
-    margin-left: 2%;
-    width:85%;
     padding:5%;
     box-shadow: 0 0 5px  #378BA2  ;
 }
@@ -110,15 +176,61 @@ nav ul.hide{display: none;}
 #w-temmp1,#w-temmp2,#w-temmp3{
     display: flex;
 }
+/*---------event cards------------------------------------------------------------------------------------------------*/
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    width:80%;
+    text-align: left;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    box-shadow: 0 0 5px  #378BA2  ;
+}
+.cardimg{
+    width:100%;
+    height: 60%;
+}
+.card-p{
+    margin: 0;
+    padding: 2%;
+}
 
-
-
+/*--------join-----------------------------------------------------------------------------------------------------------*/
 .join-member{
     background-color:#378BA2 ;
     text-align: center;
     margin-right:5%;
 }
+.join{
+    color: #333848;
+    background-color: #FEE865;
+    font-family: 'PT Serif', serif;
+    border: none;
+    font-size: 1.5rem;
+    margin: 3%;
 
+}
+.join a{
+    text-decoration: none;
+}
+
+
+/*-------ad----------------------------------------------------------------------------------------------------*/
+#addd{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 85%;
+    margin-top: 5%;
+    margin-left: 0;
+}
+.ad{
+    width:100%;
+}
 /*-------footer----------------------------------------------------------------------------------------------------*/
 footer{
     padding-left: 5%;

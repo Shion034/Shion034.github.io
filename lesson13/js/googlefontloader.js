@@ -1,1 +1,1 @@
-WebFont.load({google: {families: [ 'Chango','Della Respira']}});
+WebFont.load({google: {families: ['PT Serif','Della Respira']}});

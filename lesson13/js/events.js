@@ -16,24 +16,30 @@ fetch(events)
         let article = document.createElement('article');
         let imge=document.createElement("img");
         let h6=document.createElement("h6");
-        let h4=document.createElement("h4");
+        let h5=document.createElement("h5");
         let p1=document.createElement("p");
         let p2 = document.createElement('p');
         let p3 = document.createElement('p');
 
+        sectioncard.setAttribute("class",`card`);
+        h6.textContent=`${eventN.date}`;
+        h5.textContent=`${eventN.name}`;
         imge.setAttribute('src', `img/${eventN.image}`);
         imge.setAttribute('alt',`Images`);
-        h6.textContent=`${eventN.date}`;
-        h4.textContent=`${eventN.name}`;
+        imge.setAttribute('class',`cardimg`);
         p1.textContent=`Place:${eventN.place}`;
+        p1.setAttribute('class',`card-p`);
         p2.textContent=`Time:${eventN.time}`;
+        p2.setAttribute('class',`card-p`);
         p3.textContent=`Cost:${eventN.fee}`;
+        p3.setAttribute('class',`card-p`);
         
         cards.append(sectioncard);
-        sectioncard.append (imge);
+        article.append (h5);
         article.append (h6);
+        sectioncard.append (imge);
+
         sectioncard.append(article);
-        article.append (h4);
         article.append (p1);
         article.append (p2);
         article.append (p3);
