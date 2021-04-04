@@ -35,7 +35,7 @@
                     <li><a class="home" href="../index.html">Home</a></li>
                     <li><a class="city" href="../city/city.html">Hachinohe City</a></li>
                     <li><a class="directory" href="#">Directory</a></li>
-                    <li><a class="member" href="#">Membership</a></li>
+                    <li><a class="member" href="../Join/member.html">Membership</a></li>
                     <li><a class="contact" href="../contact/contact.html">Contact</a></li>
                 </ul>
             </nav>
@@ -54,49 +54,75 @@
 
 
     <main>
-        <section id="chamberinfo">
-            <img src="../contact/img/img01.jpg" alt="Hachinohe chamber">
-            <div class="graphicinfo">
-                <h2>Location</h2>
-                <p>2-3 Horibata-cho Hachinohe City<br>
-                    Aomori Japan 031-8511<br></p>
+        <h2>What Do We Do?</h2>
+        <p>Our purpose is to disseminate our history and preserve traditional building, traditional craft,
+            and intangible cultural heritage. To preserve our traditon, we will disseminate advantageous information
+            to the young generation and help them be interested in their hometown. To reach our purpose, we inform 
+            our events, history, and provide business seminar to help yong generation.</p>
+        
+        <h2>Benefits to join member</h2>
+        <p>There are some benefits to be our member. </p>
 
-                   <p>
-                    Phone: 123-456-789<br>
-                    FAX: 987-654-321<br>
-                    E-mail: umineko.chamber@nambumachi.co.jp<br></p>
-            </div>
-        </section>
-            <div class="map">
-            <iframe id="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3033.3660291486726!2d141.48765775140305!3d40.51140005769827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9b520f172cca01%3A0x59f5a55cb3ddcf58!2sHachinohe%20Chamber%20of%20commerce%20and%20industry!5e0!3m2!1sen!2sjp!4v1617534249117!5m2!1sen!2sjp" 
-            width="100%" style="border:0;" allowfullscreen="" loading="lazy">
-            </iframe>
-            </div>
-        <section id="contact">
-            <h4>Contact US</h4>
+        <div class="reasons">
+            Hachinohe Chamber of Commerse offers opportunities each monthe to requruters to meet 
+            job seekers. Since our purpose is to help young generations, this opportunities will be
+            provided both requruters and job seekers who are members.
+        </div>
+        <div class="reasons">
+            You need to build a network of people who are thinking of you first when you encounter a situation
+            which you need professional skills. Our network is not only local business, but also some university and 
+            high school is part of our member. 
+        </div>
 
-            <div>
-                <label for="name">Name<span class="required">*</span></label><br>
-                <input type="text" name="name-input" minlength="5" pattern="[a-zA-Z]" required>
-            </div>
-            <div>
-                <label for="email">Email<span class="required">*</span></label><br>
-                <input type="email" name="email" placeholder="umineko.taro@hachinohe.co.jp" required>
-            </div>
-            <div>
-                <label for="phone">Phone<span class="required">*</span></label><br>
-                <input type="tel" name="phone" placeholder="123-456-789" required>
-            </div>
-            <div>
-                <label for="message">Message<span class="required">*</span></label><br>
-                <textarea name="Message2" rows="10" cols="40"></textarea>
-            </div>
+        <h2>Membership Application</h2>
 
-            <button class="submit" ><a href="#">SUBMIT</a></button>
-
-        </section>
-
-
+        <div>
+            <label for="F-name">First name<span class="required">*</span></label><br>
+            <input type="text" name="name-input" minlength="5" pattern="[a-zA-Z]" required>
+        </div>
+        <div>
+            <label for="L-name">Last Name<span class="required">*</span></label><br>
+            <input type="text" name="name-input" minlength="5" pattern="[a-zA-Z]" required>
+        </div>
+        <div>
+            <label for="title">Title</label><br>
+            <input type="text" name="tetle" minlength="5">
+        </div>
+        <div>
+            <label for="email">Email<span class="required">*</span></label><br>
+            <input type="email" name="email" placeholder="umineko.taro@hachinohe.co.jp" required>
+        </div>
+        <div>
+            <label for="phone">Phone</label><br>
+            <input type="tel" name="phone" placeholder="123-456-789">
+        </div>
+        <div>
+            <label for="B-name">Business name<span class="required">*</span></label><br>
+            <input type="text" name="name-input" minlength="5" pattern="[a-zA-Z]" required>
+        </div>
+        <div>
+            <label for="C-websit">Company website</label><br>
+            <input type="text" name="site">
+        </div>
+        <div>
+            <label for="B-email">Business Address<span class="required">*</span></label><br>
+            <input type="email" name="email" placeholder="umineko.taro@hachinohe.co.jp" required>
+        </div>
+        <div>
+            <label for="description">Description<span class="required">*</span></label><br>
+            <textarea name="description" rows="3" cols="40"></textarea>
+        </div>
+        <div>
+            <label for="level">Membership level selection</label><br>
+            <select id="potion">
+                <option value="none">Non-profit ($100)</option>
+                <option value="bronze">Bronze ($200)</option>
+                <option value="silver ">Silver ($400)</option>
+                <option value="gold">Gold ($1000)</option>
+            </select>
+        </div>
+        
+        <button class="submit" ><a href="#">SUBMIT</a></button>
         
     </main>
 

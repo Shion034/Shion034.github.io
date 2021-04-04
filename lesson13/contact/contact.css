@@ -31,6 +31,8 @@ red--- #E24568*/
 }
 
 .submit{
+    margin: 3%;
+    font-size: 1rem;
     color: #EDEDED;
     background-color: #333848;
 }
