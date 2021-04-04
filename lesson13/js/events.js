@@ -9,7 +9,7 @@ fetch(events)
     console.log(events);
     const cards = document.querySelector(".cards");
 
-    const eventN= events.filter(x => x.name=="Think Back 3.11"||x.name=="starfestival"||x.name=="Sansha Taisai Festival");
+    const eventN= events.filter(x => x.name=="Think Back 3.11"||x.name=="Star Festival"||x.name=="Sansha Taisai Festival");
 
     eventN.forEach(eventN => {
         let sectioncard=document.createElement("section");
@@ -21,23 +21,25 @@ fetch(events)
         let p2 = document.createElement('p');
         let p3 = document.createElement('p');
 
+        imge.setAttribute('src', `img/${eventN.image}`);
+        imge.setAttribute('alt',`Images`);
         h6.textContent=`${eventN.date}`;
         h4.textContent=`${eventN.name}`;
         p1.textContent=`Place:${eventN.place}`;
         p2.textContent=`Time:${eventN.time}`;
         p3.textContent=`Cost:${eventN.fee}`;
-        imge.setAttribute('src', `img/${eventN.image}`);
-        imge.setAttribute('alt',`Images`);
-
+        
+        cards.append(sectioncard);
+        sectioncard.append (imge);
         article.append (h6);
+        sectioncard.append(article);
         article.append (h4);
         article.append (p1);
         article.append (p2);
         article.append (p3);
 
-        sectioncard.append(article);
-        sectioncard.append (imge);
-        cards.append(sectioncard);
+        
+       
 
     });
 
