@@ -143,6 +143,7 @@ nav ul.hide{display: none;}
 
 .certificate a{
 text-decoration: none;
+color: #EDEDED;
 }
 
 .certificate a:hover{
