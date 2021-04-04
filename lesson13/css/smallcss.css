@@ -260,3 +260,12 @@ footer{
     justify-content: center;
     align-content: center;
 }
+#googlemap{
+    width: 100%;
+}
+
+
+.map{
+    width:100%;
+    border: solid 5px #378BA2;
+}

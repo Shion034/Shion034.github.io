@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="../css/smallcss.css">
     <link rel="stylesheet" href="../css/mediumcss.css">
     <link rel="stylesheet" href="../css/largecss.css">
+    <link rel="stylesheet" href="../contact/contact.css">
+
     <link rel="shortcut icon" href="../lesson13/img/home/favicon.ico">
     <title>Hachinohe Chamber of Commerce</title>
 </head>
@@ -37,8 +39,7 @@
                     <li><a class="contact" href="#">Contact</a></li>
                 </ul>
             </nav>
-       
-        <img class="hero-img" src="../img/home/sansha1200.jpg" alt="sansha-taisai">
+
         <div>
             <nav class="second-nav">
                 <ul class="Snav-ul">
@@ -50,64 +51,51 @@
             </nav>
         </div>
     </header>
+
+
     <main>
-        <section id="cityinfo">
-            <img src="../city/K5_56753_re.jpg" alt="Great bridge of Dream">
-            <p class="graphicinfo"></p>
-        </section>
+        <section id="chamberinfo">
+            <img src="../contact/img/img01.jpg" alt="Hachinohe chamber">
+            <div class="graphicinfo">
+                <h2>Location</h2>
+                <p>2-3 Horibata-cho Hachinohe City<br>
+                    Aomori Japan 031-8511<br></p>
 
-        <div class="www">
-        <section class="weatheSection">
-            <div class="content-gather">
-            <h4>Today's weather</h4>
-            <div class="CW">
-                <img src="" alt="" id="icon">
-                <div class="wContent">
-                    <p>
-                        Weather:<br> &nbsp;<span id="w-output" class="day-weather"></span><br>
-                        Temperature: &nbsp;<span id="t-output" class="day-weather"></span>&deg;F<br>
-                        Humidity: &nbsp;<span id="h-output" class="day-weather"></span>&deg;F<br>
-                    </p>
-                </div>
-                </div>
-            </div>
-            <div class="content-gather">
-            <h4>Three days forcasts</h4>
-            <div class="threedaysforcast">
-                <div id="threeCasts1" class="onecast">
-                    <p id="day1"></p>
-                    <img src="" alt="" id="w-img1">
-                    <div>
-                    <span id ="w-temp1"></span>&deg; F
-                    </div>
-                </div>
-                <div id="threeCasts2" class="onecast">
-                    <p id="day2"></p>
-                    <img src="" alt="" id="w-img2">
-                    <div>
-                    <span id ="w-temp2"></span>&deg; F
-                    </div>
-                </div>
-                <div id="threeCasts3" class="onecast">
-                    <p id="day3"></p>
-                    <img src="" alt="" id="w-img3">
-                    <div>
-                    <span id ="w-temp3"></span>&deg; F
-                    </div>
-                </div>
-            </div>
+                   <p>
+                    Phone: 123-456-789<br>
+                    FAX: 987-654-321<br>
+                    E-mail: umineko.chamber@nambumachi.co.jp<br></p>
             </div>
         </section>
-        </div>
+            <div class="map">
+            <iframe id="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3033.3660291486726!2d141.48765775140305!3d40.51140005769827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9b520f172cca01%3A0x59f5a55cb3ddcf58!2sHachinohe%20Chamber%20of%20commerce%20and%20industry!5e0!3m2!1sen!2sjp!4v1617534249117!5m2!1sen!2sjp" 
+            width="100%" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+            </div>
+        <section id="contact">
+            <h4>Contact US</h4>
 
-        <div class="evEnts">
-            <h2>Upcomming Events!</h2>
-            <div class="cards"></div>
+            <div>
+                <label for="name">Name<span class="required">*</span></label><br>
+                <input type="text" name="name-input" minlength="5" pattern="[a-zA-Z]" required>
+            </div>
+            <div>
+                <label for="email">Email<span class="required">*</span></label><br>
+                <input type="email" name="email" placeholder="umineko.taro@hachinohe.co.jp" required>
+            </div>
+            <div>
+                <label for="phone">Phone<span class="required">*</span></label><br>
+                <input type="tel" name="phone" placeholder="123-456-789" required>
+            </div>
+            <div>
+                <label for="message">Message<span class="required">*</span></label><br>
+                <textarea name="Message2" rows="10" cols="40"></textarea>
+            </div>
 
-        </div>
+
+        </section>
 
 
-        </div>
         
     </main>
 
@@ -142,9 +130,8 @@
         
     </footer>
 
-    <script src="../js/cw.js"></script>
-    <script src="../js/threecast.js"></script>
-    <script src="../js/events.js"></script>
+    
+    
     <script src="../js/script.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>

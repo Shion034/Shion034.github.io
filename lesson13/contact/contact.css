@@ -1,0 +1,23 @@
+@media only screen and (min-width: 500px) {
+
+#chamberinfo{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3%;
+}
+
+.graphicinfo{
+    padding: 3%;
+}
+
+#googlemap{
+    width:600px;
+    height: 450px;
+}
+.map{
+    width:600px;
+    height: 450px;
+    border: solid 5px #378BA2;
+}
+
+}
