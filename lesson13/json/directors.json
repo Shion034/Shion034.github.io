@@ -1,0 +1,31 @@
+{
+    "directers" :[
+        {  "logo": "dimel",
+            "comnyname":"Demer Co.,Ltd.",
+            "site":"http://www.de-mer.com/"
+        },
+        {  "logo": "de-ri-",
+            "comnyname":"Daily Tohoku News",
+            "site":"https://www.daily-tohoku.news/"
+        },
+        {  "logo": "toyota",
+            "comnyname":"Toyota Corolla Hachinohe",
+            "site":"https://tsukahara-cruise.jp/corolla/"
+        },
+        {  "logo": "hatinoheya",
+            "comnyname":"Hachinoheya",
+            "site":"http://www.hachinoheya.co.jp/"
+        },
+        {  "logo": "yamayo",
+            "comnyname":"Yamayo",
+            "site":"http://www.yamayo.info/"
+        },
+        {  "logo": "toyopetto",
+            "comnyname":"Aomori Toyopetto",
+            "site":"https://www.aomoritoyopet.jp/"
+        },
+        {  "logo": "hachita",
+            "comnyname":"Hatta Group",
+            "site":"http://hatta-group.jp/"
+        }
+    ]}

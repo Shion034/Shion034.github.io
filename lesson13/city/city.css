@@ -1,0 +1,35 @@
+
+/*
+Title font---font-family: 'Chango', cursive;
+Other font---font-family: 'Della Respira', serif;
+
+Color palette
+Blue--- #378BA2
+White--- #EDEDED
+Black--- #333848
+yellow--- #FEE865
+red--- #E24568*/
+
+
+@media only screen and (min-width: 34rem) {
+
+.topics{
+    background-color: rgba(254, 232, 101, 0.5);
+    padding: 3%;
+    margin-bottom: 3%;
+}
+.topic1{
+    display: flex;
+    flex-direction: row;
+}
+
+.growth{
+    width: 60%;
+}
+.tayu{
+    width: 60%;
+}
+
+
+
+}
