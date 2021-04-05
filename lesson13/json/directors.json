@@ -2,30 +2,37 @@
     "directers" :[
         {  "logo": "dimel",
             "comnyname":"Demer Co.,Ltd.",
-            "site":"http://www.de-mer.com/"
+            "site":"http://www.de-mer.com/",
+            "contact":"http://www.de-mer.com/formmail.html"
         },
         {  "logo": "de-ri-",
             "comnyname":"Daily Tohoku News",
-            "site":"https://www.daily-tohoku.news/"
+            "site":"https://www.daily-tohoku.news/",
+            "contact":"TEL:(0178)44-5111-1"
         },
         {  "logo": "toyota",
             "comnyname":"Toyota Corolla Hachinohe",
-            "site":"https://tsukahara-cruise.jp/corolla/"
+            "site":"https://tsukahara-cruise.jp/corolla/",
+            "contact":"corolla-hachinohe@tsukahara-cruise.co.jp"
         },
         {  "logo": "hatinoheya",
             "comnyname":"Hachinoheya",
-            "site":"http://www.hachinoheya.co.jp/"
+            "site":"http://www.hachinoheya.co.jp/",
+            "contact":"(0178)22-3324"
         },
         {  "logo": "yamayo",
             "comnyname":"Yamayo",
-            "site":"http://www.yamayo.info/"
+            "site":"http://www.yamayo.info/",
+            "contact":"TEL:(0178)-24-3211"
         },
         {  "logo": "toyopetto",
             "comnyname":"Aomori Toyopetto",
-            "site":"https://www.aomoritoyopet.jp/"
+            "site":"https://www.aomoritoyopet.jp/",
+            "contact":"TEL:(0120)-82-5671"
         },
         {  "logo": "hachita",
             "comnyname":"Hatta Group",
-            "site":"http://hatta-group.jp/"
+            "site":"http://hatta-group.jp/",
+            "contact":"TEL:(0120)-098-308"
         }
     ]}
