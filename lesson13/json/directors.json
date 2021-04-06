@@ -1,36 +1,36 @@
 {
     "directers" :[
-        {  "logo": "dimel",
+        {  "logo": "dimel.png",
             "comnyname":"Demer Co.,Ltd.",
             "site":"http://www.de-mer.com/",
             "contact":"http://www.de-mer.com/formmail.html"
         },
-        {  "logo": "de-ri-",
+        {  "logo": "de-ri-.jpg",
             "comnyname":"Daily Tohoku News",
             "site":"https://www.daily-tohoku.news/",
             "contact":"TEL:(0178)44-5111-1"
         },
-        {  "logo": "toyota",
+        {  "logo": "toyota.png",
             "comnyname":"Toyota Corolla Hachinohe",
             "site":"https://tsukahara-cruise.jp/corolla/",
             "contact":"corolla-hachinohe@tsukahara-cruise.co.jp"
         },
-        {  "logo": "hatinoheya",
+        {  "logo": "hatinoheya.jpg",
             "comnyname":"Hachinoheya",
             "site":"http://www.hachinoheya.co.jp/",
             "contact":"(0178)22-3324"
         },
-        {  "logo": "yamayo",
+        {  "logo": "yamayo.png",
             "comnyname":"Yamayo",
             "site":"http://www.yamayo.info/",
             "contact":"TEL:(0178)-24-3211"
         },
-        {  "logo": "toyopetto",
+        {  "logo": "toyopetto.png",
             "comnyname":"Aomori Toyopetto",
             "site":"https://www.aomoritoyopet.jp/",
             "contact":"TEL:(0120)-82-5671"
         },
-        {  "logo": "hachita",
+        {  "logo": "hachita.png",
             "comnyname":"Hatta Group",
             "site":"http://hatta-group.jp/",
             "contact":"TEL:(0120)-098-308"

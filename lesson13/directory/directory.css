@@ -1,0 +1,25 @@
+/*
+Title font--- font-family: 'PT Serif', serif;
+Other font---font-family: 'Della Respira', serif;
+
+Color palette
+Blue--- #378BA2
+White--- #EDEDED
+Black--- #333848
+yellow--- #FEE865
+red--- #E24568*/
+table{
+    width: 100%;
+}
+thead{
+    font-family: 'PT Serif', serif;
+    color: #ededed;
+    background-color: #378BA2;
+}
+img{
+    width:100px;
+}
+td{
+    border-bottom: solid 2px #378BA2;
+    font-family: 'Della Respira', serif;
+}
