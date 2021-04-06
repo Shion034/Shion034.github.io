@@ -4,20 +4,30 @@ fetch(directs)
 .then(function (response) {
     return response.json();
   })
-.then(function(jsonObject){
-    const directers = jsonObject['directers'];
+.then(function(arRay){
+    const directers = arRay['directers'];
     console.log(directers);
 
-    const part = document.querySelector(".directersTable");
+    let length=directers.length;
+    console.log(length);
 
-    part.forEach(part => {
+for(let i=0;i<=length;i++){
 
-      let card = document.createElement('section');
-      let logo = document.createElement ('img');
-      let h2 = document.createElement('h2');
-      let p1 = document.createElement('p');
-      let p2 = document.createElement('p');
-      
-        
-    });
+    let logo=directers[i].logo;
+    console.log(logo);
+    document.getElementById(`logo${i+1}`).setAttribute('src', logo); 
+
+    let comName=directers[i].comnyname;
+    console.log(comName);
+    document.getElementById(`name${i+1}`).textContent = comName;
+
+    let site=directers[i].site;
+    console.log(site);
+    document.getElementById(`site${i+1}`).textContent = site;
+
+    let conInfo=directers[i].contact;
+    console.log(conInfo);
+    document.getElementById(`con${i+1}`).textContent = conInfo;
+
+}
 });
