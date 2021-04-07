@@ -29,7 +29,7 @@
             <h1 id="header-1">Hachinohe City<br>
                         Chamber of Commerse</h1>
              </div>            
-            <nav class="head-nav">
+            <nav class="clearfix"class="head-nav">
                 <button onclick="meNue()">MENU  &nbsp; &#9778;</button>
                 <ul id="naVigation" class="hide">
                     <li><a class="home" href="../index.html">Home</a></li>
@@ -76,7 +76,7 @@
 
         <h2>Membership Application</h2>
 
-        <div>
+        <form>
             <label for="F-name">First name<span class="required">*</span></label><br>
             <input type="text" name="name-input" minlength="5" pattern="[a-zA-Z]" required>
         </div>
@@ -120,10 +120,8 @@
                 <option value="silver ">Silver ($400)</option>
                 <option value="gold">Gold ($1000)</option>
             </select>
-        </div>
-        
-        <button class="submit" ><a href="#">SUBMIT</a></button>
-        
+        <input id="bubmit" class="submit" type="submit" value="SUBMIT">
+        </form>
     </main>
 
 
