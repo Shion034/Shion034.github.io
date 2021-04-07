@@ -23,3 +23,9 @@ td{
     border-bottom: solid 2px #378BA2;
     font-family: 'Della Respira', serif;
 }
+.directory{
+    background-color: #378BA2;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FEE865;
+}

@@ -123,6 +123,13 @@ nav ul.hide{display: none;}
 .Snav-li{
     text-align: center;
 }
+
+.home{
+    background-color: #378BA2;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FEE865;
+}
 /*-------career----------------------------------------------------------------------------------------------------*/
 .carrerSupport{
     background-color: rgba(254, 232, 101, 0.5);
