@@ -264,8 +264,10 @@ footer{
 #googlemap{
     width: 100%;
 }
-
-
+#currentdate{
+    font-family: 'PT Serif', serif;
+}
+/*-------Other----------------------------------------------------------------------------------------------------*/
 .map{
     width:100%;
     border: solid 5px #378BA2;
